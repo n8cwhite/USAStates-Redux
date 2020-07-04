@@ -137,9 +137,10 @@ add_ideas = {
 	#
 }
 set_popularities = {
-	democratic = 60
-	communism = 30
+	democratic = 50
+	communism = 20
 	fascism = 10
+	neutrality = 20
 }
 
 create_country_leader = {
@@ -154,9 +155,19 @@ create_country_leader = {
 					}
 
 create_country_leader = {
-			name = "Henry A. Wallace"
+			name = "Jack Stachel"
 			#desc = ""
-			picture = "Henry_A_Wallce.dds"
+			picture = "jack_stachel.dds"
+			expire = "1965.1.1"
+			ideology = Stalinism
+			traits = {
+						permanent_revolutionary
+								}
+						}
+create_country_leader = {
+			name = "Louis Waldman"
+			#desc = ""
+			picture = "louis_waldman.dds"
 			expire = "1965.1.1"
 			ideology = marxism
 			traits = {
@@ -172,6 +183,17 @@ create_country_leader = {
 					ideology = fascism_ideology
 					traits = {
 									anti_democrat
+														}
+												}
+
+create_country_leader = {
+					name = "The New York Capital Conglomerate"
+					#desc = ""
+					picture = "empirestate.dds"
+					expire = "1965.1.1"
+					ideology = neutrality
+					traits = {
+									Anarchist Zeal
 														}
 												}
 

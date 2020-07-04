@@ -1,0 +1,33 @@
+add_namespace = nyn
+add_namespace = newyorknews
+
+country_event = {
+  id = nyn.0
+  title = nyn.0.t
+  desc = nyn.0.d
+  picture = GFX_report_event_molotov_ribentrop_handshake
+
+  is_triggered_only = yes
+
+     option = {
+	     name =  name = nyn.0.a
+	     ai_chance = { 
+	     	factor = 95
+	     }
+	     SOV = { add_to_faction = NYN }
+     }
+
+     option = {
+	     name = nyn.0.b		#no thanks
+	     ai_chance = { 
+		     factor = 05
+	     }
+     }
+ }
+  option = {
+    name = nyn.0.a
+    TXT = {
+      transfer_state = 832
+    }
+  }
+}

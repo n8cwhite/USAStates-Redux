@@ -1,0 +1,2243 @@
+﻿focus_tree = {
+	id = newyork_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NYN
+		}
+	}
+	#Focus for The Big Apple Project
+	focus = {
+		id = NYN_the_big_apple_project
+		icon = GFX_focus_spa_the_war_of_vengeance
+		x = 44
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_empire_state }
+		mutually_exclusive = { focus = NYN_new_york_killing_fields }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 100
+		add_war_support = 0.2
+		add_command_power = 100
+		add_ideas = NYN_bigapple
+	}
+	}
+
+	#Focus for Equality of Means
+	focus = {
+		id = NYN_equality_of_means
+		icon = GFX_goal_generic_soviet_construction
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_toward_soviet_america 
+			focus = NYN_realize_the_revolution 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+	358 = {  
+ 					add_resource = { type = rubber amount = 10 } 
+ 				}  
+ 
+	358 = {  
+ 					add_resource = { type = tungsten amount = 5 } 
+ 				}
+				
+	358 = {  
+ 					add_resource = { type = steel amount = 10 } 
+					
+ 				}
+  358 = { 
+   			add_extra_state_shared_building_slots = 6
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+			}
+		}
+	}
+
+	#Focus for Support Collectivist Industry
+	focus = {
+		id = NYN_support_collectivist_industry
+		icon = GFX_focus_generic_industry_3
+		x = 28
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_unified_people }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		  358 = { 
+		  add_extra_state_shared_building_slots = 4
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 		        add_building_construction = { 
+ 					type = infrastructure 
+ 					level = 5
+ 					instant_build = yes 
+ 				}
+	}
+	}
+	}
+
+	#Focus for Rouse Support for Governor Lehman
+	focus = {
+		id = NYN_rouse_support_for_governor_lehman
+		icon = GFX_goal_generic_national_unity
+		x = 33
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_embrace_central_planning }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 250
+	}
+	}
+
+	#Focus for The Democratic Cause
+	focus = {
+		id = NYN_the_democratic_cause
+		icon = GFX_focus_generic_self_management
+		x = 33
+		y = 9
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_economic_subsidies 
+		}
+		prerequisite = { 
+			focus = NYN_arm_the_citizenry 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_democraticcause
+	}
+	}
+
+	#Focus for Anti-Capitalist Crusade
+	focus = {
+		id = NYN_anticapitalist_crusade
+		icon = GFX_focus_spr_class_war
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_equality_of_thought }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = -75.00
+		add_stability = -0.05
+		add_ideas = NYN_anticapitalistcrusade
+	}
+	}
+
+	#Focus for Extend the New York Arms Protocols
+	focus = {
+		id = NYN_extend_the_new_york_arms_protocols
+		icon = GFX_focus_generic_tank_production
+		x = 18
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_equality_of_means }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_war_support = 0.15
+		358 = {
+		  				add_extra_state_shared_building_slots = 2 
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+  				add_extra_state_shared_building_slots = 2 
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+  				add_extra_state_shared_building_slots = 2 
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 				}
+ 				}
+	}
+
+	#Focus for Fund New York City Labor Camps
+	focus = {
+		id = NYN_fund_new_york_city_labor_camps
+		icon = GFX_focus_por_workers_of_iberia
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_equality_of_means }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_stability = -0.05
+		358 = {
+ 			add_extra_state_shared_building_slots = 2
+         add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 			add_extra_state_shared_building_slots = 2 
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 			add_extra_state_shared_building_slots = 2
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 				}
+ 				}
+	}
+
+	#Focus for Proclaim The New York Soviet Society
+	focus = {
+		id = NYN_proclaim_the_new_york_soviet_society
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = 14
+		y = 6
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_equality_of_means 
+		}
+		prerequisite = { 
+			focus = NYN_equality_of_thought 
+		}
+		prerequisite = { 
+			focus = NYN_equality_of_purpose 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = 0.15
+		SOV = { add_opinion_modifier = { target = NYN modifier = huge_increase} } 
+		add_ideas = NYN_thenewyorksovietsociety
+}
+	}
+
+	#Focus for Draft the Rich
+	focus = {
+		id = NYN_draft_the_rich
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_equality_of_thought }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.1
+		add_manpower = 600000
+		}
+	}
+
+	#Focus for Endorse Moral Reeducation
+	focus = {
+		id = NYN_endorse_moral_reeducation
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 30
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_unified_people }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_manpower = 350000
+		 			random_owned_state = { 
+			add_extra_state_shared_building_slots = 5 
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 5
+ 					instant_build = yes 
+ 				} 
+ 			}
+			random_owned_state = {  
+ 				add_extra_state_shared_building_slots = 5
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 5
+ 					instant_build = yes 
+ 				} 
+ 			}
+		}
+	}
+
+	#Focus for The Birthplace of Syndicalism
+	focus = {
+		id = NYN_the_birthplace_of_syndicalism
+		icon = GFX_focus_ger_great_red_menace
+		x = 26
+		y = 6
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_a_syndicalist_constitution 
+		}
+		prerequisite = { 
+			focus = NYN_abolish_the_state 
+		}
+		prerequisite = { 
+			focus = NYN_a_unified_people 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = { 
+		add_political_power = 75
+		add_ideas = NYN_birthplaceofsynd
+		}
+	}
+
+	#Focus for Total Wealth Redistribution
+	focus = {
+		id = NYN_total_wealth_redistribution
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 24
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_syndicalist_constitution }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_totalweath
+		}
+	}
+
+	#Focus for Increase Welfare Spending
+	focus = {
+		id = NYN_increase_welfare_spending
+		icon = GFX_focus_generic_military_academy
+		x = 32
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_rouse_support_for_governor_lehman }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+				  358 = { 
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 		add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+	}
+	}
+	}
+
+	#Focus for Promises of Saftey
+	focus = {
+		id = NYN_promises_of_saftey
+		icon = GFX_goal_generic_fortify_city
+		x = 34
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_rouse_support_for_governor_lehman }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = 0.15
+		add_manpower = 250000
+				 			random_owned_state = { 
+			add_extra_state_shared_building_slots = 5 
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 5
+ 					instant_build = yes 
+ 				} 
+ 			}
+
+	}
+	}
+
+	#Focus for Total Corporatism
+	focus = {
+		id = NYN_total_corporatism
+		icon = GFX_focus_mex_privatisation
+		x = 36
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_capitalist_domination }
+		ai_will_do = {
+			factor = 75
+		}
+completion_reward = {
+	add_ideas = NYN_totalcorporatism
+}
+	}
+
+	#Focus for Industrial Serfdom
+	focus = {
+		id = NYN_industrial_serfdom
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 38
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_capitalist_domination }
+		ai_will_do = {
+			factor = 75
+		}
+	completion_reward = {
+	add_stability = -0.10
+				  358 = { 
+ 				add_extra_state_shared_building_slots = 8
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+ 		add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+  		add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+	}
+ 				add_extra_state_shared_building_slots = 2
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 2 
+ 					instant_build = yes 
+ 				} 
+ 			}
+ 			}
+
+	#Focus for Economic Subsidies
+	focus = {
+		id = NYN_economic_subsidies
+		icon = GFX_goal_generic_production2
+		x = 32
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_increase_welfare_spending }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+			add_stability = 0.10
+				  random_owned_state = { 
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 2
+ 					instant_build = yes 
+ 				}
+	}
+		}
+	}
+
+	#Focus for The New York City Problem
+	focus = {
+		id = NYN_the_new_york_city_problem
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 51
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_new_york_nationalism }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward ={
+	 add_stability = -0.05
+	 }
+	}
+
+	#Focus for Politicize the Army
+	focus = {
+		id = NYN_politicize_the_army
+		icon = GFX_focus_chi_army_reform
+		x = 45
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_prepare_for_the_inevitable }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+  add_stability = -0.05
+  add_war_support = 0.1
+  add_manpower= 150000
+  army_experience = 25
+  navy_experience = 25
+  air_experience = 25  
+		}
+	}
+
+	#Focus for Fascist Civilian Operatives
+	focus = {
+		id = NYN_fascist_civilian_operatives
+		icon = GFX_goal_generic_military_deal
+		x = 43
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_new_york_for_new_yorkers }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.2
+		}
+	}
+
+	#Focus for Prepare for the Inevitable
+	focus = {
+		id = NYN_prepare_for_the_inevitable
+		icon = GFX_focus_generic_combined_arms
+		x = 45
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_new_york_nationalism }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_war_support = 0.10
+		  army_experience = 15
+  		  navy_experience = 15
+  		  air_experience = 15
+  		  		random_owned_state = { 
+ 				limit = { 
+ 					free_building_slots = { 
+ 						building = arms_factory  
+ 						size > 0 
+ 						include_locked = yes 
+ 					} 
+ 				} 
+ 				add_extra_state_shared_building_slots = 3
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 3 
+ 					instant_build = yes 
+ 				} 
+ 			}
+		}
+	}
+
+	#Focus for Nationalize the Media
+	focus = {
+		id = NYN_nationalize_the_media
+		icon = GFX_goal_generic_radar
+		x = 47
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_nationalize_arms_production }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 150
+		add_manpower = 150000
+					add_popularity = {
+				ideology = fascism
+				popularity = 0.75
+			}
+		}
+	}
+
+	#Focus for Nationalize the Civilian Industry
+	focus = {
+		id = NYN_nationalize_the_civilian_industry
+		icon = GFX_goal_continuous_non_factory_construct
+		x = 47
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_new_york_nationalization_plan }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+				  random_owned_state = { 
+				 add_extra_state_shared_building_slots = 6
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 3
+ 					instant_build = yes 
+ 				}
+        add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 3
+ 					instant_build = yes 
+ 				}
+		}
+	}
+	}
+
+	#Focus for The New York Nationalization Plan
+	focus = {
+		id = NYN_the_new_york_nationalization_plan
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 47
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_new_york_nationalism }
+		ai_will_do = {
+			factor = 75
+		}
+	completion_reward = {
+	add_stability = -0.05
+	add_ideas = NYN_nationalizationplan
+	}
+	}
+
+	#Focus for Nationalize Arms Production
+	focus = {
+		id = NYN_nationalize_arms_production
+		icon = GFX_goal_generic_small_arms
+		x = 47
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_nationalize_the_civilian_industry }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		  		  		random_owned_state = { 
+ 				add_extra_state_shared_building_slots = 6
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 3 
+ 					instant_build = yes 
+ 				} 
+  				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 3 
+ 					instant_build = yes 
+ 				}
+ 			}
+		}
+	}
+
+	#Focus for The New York War Machine
+	focus = {
+		id = NYN_the_new_york_war_machine
+		icon = GFX_goal_generic_air_doctrine
+		x = 45
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_quality_over_quantity }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_thenewyorkwarmachine
+		}
+	}
+
+	#Focus for Encourage Our People
+	focus = {
+		id = NYN_encourage_our_people
+		icon = GFX_goal_generic_demand_territory
+		x = 43
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_new_york_nationalism }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 100
+		add_stability = 0.20
+		add_manpower = 115000
+		}
+	}
+
+	#Focus for New York for New Yorkers
+	focus = {
+		id = NYN_new_york_for_new_yorkers
+		icon = GFX_focus_eng_organise_the_blackshirts
+		x = 43
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_encourage_our_people }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_newyorkfornewyorkers
+		}
+	}
+
+	#Focus for Mass War Drills
+	focus = {
+		id = NYN_mass_war_drills
+		icon = GFX_focus_generic_tank_production
+		x = 43
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_fascist_civilian_operatives }
+		ai_will_do = {
+			factor = 75
+		}
+		 completion_reward = {
+         1088 = {
+            add_building_construction = {
+                type = bunker
+                province = 6707
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 9664
+                level = 2
+                instant_build = yes
+            }
+            }
+            1087 = {
+            add_building_construction = {
+                type = bunker
+                province = 11680
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 11650
+                level = 2
+                instant_build = yes
+            }
+            }
+            358 = {
+            add_building_construction = {
+                type = bunker
+                province = 6717
+                level = 2
+                instant_build = yes
+            }
+            }
+            1089 = {
+            add_building_construction = {
+                type = bunker
+                province = 11660
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 706
+                level = 2
+                instant_build = yes
+            }
+            }
+            1086 = {
+            add_building_construction = {
+                type = bunker
+                province = 3894
+                level = 2
+                instant_build = yes
+            }
+            }
+            1084 = {
+            add_building_construction = {
+                type = bunker
+                province = 13887
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 3878
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 13870
+                level = 2
+                instant_build = yes
+            }
+            }
+            }
+}
+
+	#Focus for The Empire State
+	focus = {
+		id = NYN_the_empire_state
+		icon = GFX_goal_tfv_saf_support_ossebrandwag
+		x = 45
+		y = 6
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_mass_war_drills 
+		}
+		prerequisite = { 
+			focus = NYN_the_new_york_war_machine 
+		}
+		prerequisite = { 
+			focus = NYN_nationalize_the_media 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		set_cosmetic_tag = NYN_empirestate
+		add_ideas = NYN_theempirestate
+		}
+	}
+
+	#Focus for The Eastern Front
+	focus = {
+		id = NYN_the_eastern_front
+		icon = GFX_focus_generic_little_entente
+		x = 66
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_war_plans_department }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_war_support = 0.05
+		}
+	}
+
+	#Focus for The War Plans Department
+	focus = {
+		id = NYN_the_war_plans_department
+		icon = GFX_goal_generic_attack_allies
+		x = 61
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 75
+		}
+		 available = { 
+			NOT = {
+					has_government = democratic
+				}
+			   }
+		completion_reward = {
+		add_political_power = 100
+		add_war_support = 0.1
+		}
+
+	}
+
+	#Focus for The Ultimate Question
+	focus = {
+		id = NYN_the_ultimate_question
+		icon = GFX_focus_generic_concessions
+		x = 35
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_gather_support_from_the_people 
+		}
+		prerequisite = { 
+			focus = NYN_gather_support_from_new_york_city 
+		}
+		prerequisite = { 
+			focus = NYN_gather_support_from_the_farmland 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 150
+		add_stability = 0.5
+		}
+	}
+
+	#Focus for A "New" New York
+	focus = {
+		id = NYN_a_new_new_york
+		icon = GFX_goal_support_communism
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_through_thick_and_thin }
+		mutually_exclusive = { focus = NYN_an_example_to_our_neighbors }
+		mutually_exclusive = { focus = NYN_new_york_nationalism}
+		ai_will_do = {
+			factor = 75
+		} 
+		completion_reward = {
+						add_popularity = {
+						ideology = communism
+						popularity = 0.75
+				}
+	  add_war_support = 0.05
+	  add_stability = -0.1
+		}
+		} 
+
+	#Focus for An Example to Our Neighbors
+	focus = {
+		id = NYN_an_example_to_our_neighbors
+		icon = GFX_goal_support_democracy
+		x = 35
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_through_thick_and_thin }
+		mutually_exclusive = { 
+			focus = NYN_new_york_nationalism 
+		}
+		mutually_exclusive = { 
+			focus = NYN_a_new_new_york 
+		}
+		mutually_exclusive = { 
+			focus = NYN_ 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+add_political_power = 70
+add_stability = 0.05
+	}
+	}
+
+	#Focus for New York Nationalism
+	focus = {
+		id = NYN_new_york_nationalism
+		icon = GFX_goal_support_fascism
+		x = 45
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_through_thick_and_thin }
+		mutually_exclusive = { focus = NYN_an_example_to_our_neighbors }
+		mutually_exclusive = { focus = NYN_a_new_new_york}
+		ai_will_do = {
+			factor = 75
+		}
+	completion_reward = { 
+	 			set_politics = { 
+ 				ruling_party = fascism
+ 				elections_allowed = no
+ 			}
+ 					add_popularity = {
+						ideology = fascism
+						popularity = 0.75
+				}
+	  add_ideas = NYN_newyorkcityriots
+	  add_war_support = 0.05
+	  add_stability = -0.25
+		}
+	}
+
+	#Focus for Sponsor Jack Stachel
+	focus = {
+		id = NYN_sponsor_jack_stachel
+		icon = GFX_focus_spr_unify_the_london_bureau
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_new_new_york }
+		mutually_exclusive = { focus = NYN_sponsor_louis_waldman }
+		ai_will_do = {
+			factor = 75
+		}
+			completion_reward = { 
+create_country_leader = {
+    name = "Jack Stachel"
+    picture = "jack_stachel.dds"
+    expire = "1965.1.1"
+    ideology = stalinism
+	}
+		 		set_politics = { 
+ 				ruling_party = communism
+ 				elections_allowed = no
+ 			} 
+	}
+	}
+
+	#Focus for Sponsor Louis Waldman
+	focus = {
+		id = NYN_sponsor_louis_waldman
+		icon = GFX_goal_support_fourth_int
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_new_new_york }
+		mutually_exclusive = { focus = NYN_sponsor_jack_stachel }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = { 
+	create_country_leader = {
+    name = "Louis Waldman"
+    picture = "louis_waldman.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+	}
+	 			set_politics = { 
+ 				ruling_party = communism
+ 				elections_allowed = no
+ 			} 
+ 	set_cosmetic_tag = NYN_syndicalist
+	}
+	}
+
+	#Focus for Toward Soviet America
+	focus = {
+		id = NYN_toward_soviet_america
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_sponsor_jack_stachel }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+			SOV = { add_opinion_modifier = { target = NYN modifier = medium_increase} } 
+			add_equipment_to_stockpile = {
+			type = 	infantry_equipment_1
+			amount = 1000
+			producer = SOV
+		}
+			add_equipment_to_stockpile = {
+			type = 	motorized_equipment_1
+			amount = 500
+			producer = SOV
+		}
+		}
+	}
+
+	#Focus for Enforce Voluntary Collectivism
+	focus = {
+		id = NYN_enforce_voluntary_collectivism
+		icon = GFX_goal_generic_war_with_comintern
+		x = 27
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_sponsor_louis_waldman }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_voluntarycollectivism
+		}
+	}
+
+	#Focus for Equality of Thought
+	focus = {
+		id = NYN_equality_of_thought
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_toward_soviet_america 
+			focus = NYN_realize_the_revolution 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 100
+		add_stability = 0.25
+		add_war_support = 0.5
+		}
+	}
+
+	#Focus for Equality of Purpose
+	focus = {
+		id = NYN_equality_of_purpose
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_toward_soviet_america 
+			focus = NYN_realize_the_revolution 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_equalityofpurpose
+		}
+	}
+
+	#Focus for Realize the Revolution
+	focus = {
+		id = NYN_realize_the_revolution
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_sponsor_jack_stachel }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		SOV = { add_opinion_modifier = { target = NYN modifier = medium_increase} }
+		add_war_support = 0.05
+    	add_stability = 0.02
+		}
+		}
+
+	#Focus for Normalize Syndicalist Ideals
+	focus = {
+		id = NYN_normalize_syndicalist_ideals
+		icon = GFX_focus_generic_soviet_politics
+		x = 25
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_sponsor_louis_waldman }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.05
+		add_ideas = NYN_syndicalistideals
+		}
+	}
+
+	#Focus for A Syndicalist Constitution
+	focus = {
+		id = NYN_a_syndicalist_constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 23
+		y = 4
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_normalize_syndicalist_ideals 
+			focus = NYN_enforce_voluntary_collectivism 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 100
+		add_stability = 0.20
+		}
+	}
+
+	#Focus for A Unified People
+	focus = {
+		id = NYN_a_unified_people
+		icon = GFX_focus_generic_support_the_left_right
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_normalize_syndicalist_ideals 
+			focus = NYN_enforce_voluntary_collectivism 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_unifiedpeople }
+	}
+
+	#Focus for The Two-Party State
+	focus = {
+		id = NYN_the_twoparty_state
+		icon = GFX_goal_generic_neutrality_focus
+		x = 33
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_ultimate_question }
+		mutually_exclusive = { focus = NYN_the_noparty_state }
+		ai_will_do = {
+			factor = 75
+		}
+				completion_reward = {
+				add_stability = 0.15
+				add_war_support = 0.15
+				set_politics = { 
+ 				ruling_party = democratic
+ 				elections_allowed = yes
+ 			}
+ 	 					add_popularity = {
+						ideology = democratic
+						popularity = 0.75
+				}
+		}
+	}
+
+	#Focus for The No-Party State
+	focus = {
+		id = NYN_the_noparty_state
+		icon = GFX_goal_support_democracy
+		x = 37
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_ultimate_question }
+		mutually_exclusive = { focus = NYN_the_twoparty_state }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.1
+		add_war_support = 0.25
+		create_country_leader = {
+    name = "The New York Capital Conglomerate"
+    picture = "empirestate.dds"
+    expire = "1965.1.1"
+    ideology = centrism
+	}
+						set_politics = { 
+ 				ruling_party = neutrality
+ 				elections_allowed = yes
+ 			}
+ 	 					add_popularity = {
+						ideology = neutrality
+						popularity = 0.75
+				}
+		}
+	}
+
+	#Focus for The Death of Organized Politics
+	focus = {
+		id = NYN_the_death_of_organized_politics
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 37
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_noparty_state }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_deathoforganizedpolitics
+		}
+	}
+
+	#Focus for Gather Support from the People
+	focus = {
+		id = NYN_gather_support_from_the_people
+		icon = GFX_goal_generic_demand_territory
+		x = 33
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_an_example_to_our_neighbors }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.05
+		}
+	}
+
+	#Focus for Gather Support from the Farmland
+	focus = {
+		id = NYN_gather_support_from_the_farmland
+		icon = GFX_goal_generic_position_armies
+		x = 37
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_an_example_to_our_neighbors }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.05
+		}
+	}
+
+	#Focus for The New York City State
+	focus = {
+		id = NYN_the_new_york_city_state
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 37
+		y = 9
+		cost = 20
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_true_trickle_down_economics 
+		}
+		prerequisite = { 
+			focus = NYN_monopolized_industry 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_newyorkcitystate
+		}
+	}
+
+	#Focus for Take Rhode Island
+	focus = {
+		id = NYN_take_rhode_island
+		icon = GFX_goal_generic_political_pressure
+		x = 62
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_seize_the_dockyards }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = RIR
+					}
+		}
+	}
+
+	#Focus for War In Vermont
+	focus = {
+		id = NYN_war_in_vermont
+		icon = GFX_goal_generic_small_arms
+		x = 67
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_eastern_front }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = VTV
+					}
+		}
+	}
+
+	#Focus for The Western Front
+	focus = {
+		id = NYN_the_western_front
+		icon = GFX_goal_generic_wolf_pack
+		x = 56
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_war_plans_department }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_war_support = 0.05
+		}
+	}
+
+	#Focus for Siege Ontario
+	focus = {
+		id = NYN_siege_ontario
+		icon = GFX_focus_prc_infiltration
+		x = 55
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_western_front }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = ONO
+					}
+		}
+	}
+
+	#Focus for Siege Pennsylvania
+	focus = {
+		id = NYN_siege_pennsylvania
+		icon = GFX_focus_prc_infiltration
+		x = 57
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_western_front }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = PAP
+					}
+		}
+	}
+
+	#Focus for Arm the Citizenry
+	focus = {
+		id = NYN_arm_the_citizenry
+		icon = GFX_focus_focus_fra_maquis
+		x = 34
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_promises_of_saftey }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_armthecitizenry
+		}
+	}
+
+	#Focus for True Trickle Down Economics
+	focus = {
+		id = NYN_true_trickle_down_economics
+		icon = GFX_focus_generic_industry_3
+		x = 36
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_total_corporatism }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_truetrickledown
+		}
+	}
+
+	#Focus for Monopolized Industry
+	focus = {
+		id = NYN_monopolized_industry
+		icon = GFX_goal_continuous_reduce_training_time
+		x = 38
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_industrial_serfdom }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_monopolizedindustry
+		}
+	}
+
+	#Focus for Our Own Way
+	focus = {
+		id = NYN_our_own_way
+		icon = GFX_goal_generic_war_with_comintern
+		x = 12
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_proclaim_the_new_york_soviet_society }
+		mutually_exclusive = { focus = NYN_embrace_the_global_revolution }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 50
+			set_rule = {
+				can_create_factions = yes
+			}
+				create_faction = "Soviet America"
+			}
+
+	}
+
+	#Focus for Embrace the Global Revolution
+	focus = {
+		id = NYN_embrace_the_global_revolution
+		icon = GFX_focus_fra_loyalty_stalin
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_proclaim_the_new_york_soviet_society }
+		mutually_exclusive = { focus = NYN_our_own_way }
+		ai_will_do = {
+			factor = 75
+		}
+			completion_reward = {
+		SOV = {country_event = { days = 1 id = nyn.0 }}
+	}
+	}
+
+	#Focus for Soviet Economic Programs
+	focus = {
+		id = NYN_soviet_economic_programs
+		icon = GFX_goal_generic_soviet_construction
+		x = 17
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_embrace_the_global_revolution }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+
+		add_ideas = sovieteconomicprograms
+		add_tech_bonus = {
+		name = S0V_industrial_research
+		bonus = 0.75
+		uses = 2
+		category = industry
+		}
+		}
+	}
+
+	#Focus for Soviet Sleeper Divisons
+	focus = {
+		id = NYN_soviet_sleeper_divisons
+		icon = GFX_focus_spr_no_pasaran
+		x = 15
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_embrace_the_global_revolution }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_sovietsleeperagents
+						add_equipment_to_stockpile = {
+			type = 	infantry_equipment_1
+			amount = 1000
+			producer = SOV
+		}
+					add_equipment_to_stockpile = {
+			type = 	light_tank_equipment_1
+			amount = 750
+			producer = SOV
+		}
+		}
+	}
+
+	#Focus for The Red Horde
+	focus = {
+		id = NYN_the_red_horde
+		icon = GFX_focus_generic_manpower
+		x = 11
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_our_own_way }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.25
+		add_manpower = 1250000
+		add_ideas = NYN_theredhorde
+		}
+	}
+
+	#Focus for Syndicalism for All
+	focus = {
+		id = NYN_syndicalism_for_all
+		icon = GFX_focus_eng_crush_the_dream
+		x = 24
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_birthplace_of_syndicalism }
+		mutually_exclusive = { focus = NYN_syndicalism_for_new_york }
+		ai_will_do = {
+			factor = 75
+		}
+				completion_reward = {
+		add_political_power = 150
+		add_stability = 0.05
+			set_rule = {
+				can_create_factions = yes
+			}
+				create_faction = "Syndicalist International"
+			}
+
+	}
+
+	#Focus for From Sea to Shining Sea
+	focus = {
+		id = NYN_from_sea_to_shining_sea
+		icon = GFX_focus_generic_tank_production
+		x = 24
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_syndicalism_for_all }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+			add_ideas = NYN_seatoshiningsea
+			}
+	}
+
+	#Focus for Syndicalism for New York
+	focus = {
+		id = NYN_syndicalism_for_new_york
+		icon = GFX_goal_generic_war_with_comintern
+		x = 28
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_birthplace_of_syndicalism }
+		mutually_exclusive = { focus = NYN_syndicalism_for_all }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 150
+		1088 = {
+            add_building_construction = {
+                type = bunker
+                province = 6707
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 9664
+                level = 2
+                instant_build = yes
+            }
+            }
+            1087 = {
+            add_building_construction = {
+                type = bunker
+                province = 11680
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 11650
+                level = 2
+                instant_build = yes
+            }
+            }
+            358 = {
+            add_building_construction = {
+                type = bunker
+                province = 6717
+                level = 2
+                instant_build = yes
+            }
+            }
+            1089 = {
+            add_building_construction = {
+                type = bunker
+                province = 11660
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 706
+                level = 2
+                instant_build = yes
+            }
+            }
+            1086 = {
+            add_building_construction = {
+                type = bunker
+                province = 3894
+                level = 2
+                instant_build = yes
+            }
+            }
+            1084 = {
+            add_building_construction = {
+                type = bunker
+                province = 13887
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 3878
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 13870
+                level = 2
+                instant_build = yes
+            }
+            }
+	}
+	}
+
+	#Focus for New York Exceptionalism
+	focus = {
+		id = NYN_new_york_exceptionalism
+		icon = GFX_goal_support_communism
+		x = 28
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_syndicalism_for_new_york }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_newyorkexceptionalism
+		}
+	}
+
+	#Focus for Through Thick and Thin
+	focus = {
+		id = NYN_through_thick_and_thin
+		icon = GFX_goal_generic_demand_territory
+		x = 35
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power =  75
+		add_stability = -0.25
+		}
+	}
+
+	#Focus for Abolish the State
+	focus = {
+		id = NYN_abolish_the_state
+		icon = GFX_focus_generic_join_comintern
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_normalize_syndicalist_ideals 
+			focus = NYN_enforce_voluntary_collectivism 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.10
+		add_ideas = NYN_abolishthestate
+		}
+	}
+
+	#Focus for Gather Support From New York City
+	focus = {
+		id = NYN_gather_support_from_new_york_city
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 35
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_an_example_to_our_neighbors }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.05
+		}
+	}
+
+	#Focus for Capitalist Domination
+	focus = {
+		id = NYN_capitalist_domination
+		icon = GFX_goal_generic_forceful_treaty
+		x = 37
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_death_of_organized_politics }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = 0.15
+		add_tech_bonus = {
+		name = S0V_industrial_research
+		bonus = 0.50
+		uses = 4
+		category = industry
+		}
+		}
+
+	}
+
+	#Focus for Embrace Central Planning
+	focus = {
+		id = NYN_embrace_central_planning
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 33
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_twoparty_state }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_centralplanning
+		}
+	}
+
+	#Focus for Announce the Right to Work
+	focus = {
+		id = NYN_announce_the_right_to_work
+		icon = GFX_Generic_Working_Class_Family
+		x = 22
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_a_syndicalist_constitution }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+			random_owned_state = { 
+			add_manpower = 100000
+			add_extra_state_shared_building_slots = 6
+ 				add_building_construction = { 
+ 					type = arms_factory  
+ 					level = 3
+ 					instant_build = yes 
+ 				} 
+ 				add_building_construction = { 
+ 					type = industrial_complex 
+ 					level = 3
+ 					instant_build = yes 
+ 				}
+		}
+
+	}
+	}
+
+	#Focus for Quality over Quantity
+	focus = {
+		id = NYN_quality_over_quantity
+		icon = GFX_goal_generic_secret_weapon
+		x = 45
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_politicize_the_army }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+			add_ideas = NYN_qualityoverquantity
+		}
+	}
+
+	#Focus for War on New York City
+	focus = {
+		id = NYN_war_on_new_york_city
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 52
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_new_york_city_problem }
+		mutually_exclusive = { focus = NYN_appease_new_york_city }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_stability = -0.15
+		add_manpower = -20000
+		}
+	}
+
+	#Focus for Appease New York City
+	focus = {
+		id = NYN_appease_new_york_city
+		icon = GFX_goal_generic_alliance
+		x = 50
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_new_york_city_problem }
+		mutually_exclusive = { focus = NYN_war_on_new_york_city }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		political_power = 50
+		add_stability = 0.10
+		}
+	}
+
+	#Focus for Seize the Dockyards
+	focus = {
+		id = NYN_seize_the_dockyards
+		icon = GFX_focus_generic_coastal_fort
+		x = 61
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_war_plans_department }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_war_support = 0.05
+		}
+	}
+
+	#Focus for Take Connecticut
+	focus = {
+		id = NYN_take_connecticut
+		icon = GFX_goal_generic_political_pressure
+		x = 60
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_seize_the_dockyards }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = VTV
+					}
+		}
+	}
+
+	#Focus for War in New Hampshire
+	focus = {
+		id = NYN_war_in_new_hampshire
+		icon = GFX_goal_generic_small_arms
+		x = 65
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_eastern_front }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 15
+					create_wargoal = {
+					type = annex_everything
+					target = NHN
+					}
+		}
+	}
+
+	#Focus for Stalinism with New York Characteristics
+	focus = {
+		id = NYN_stalinism_with_new_york_characteristics
+		icon = GFX_focus_spa_the_war_of_vengeance
+		x = 13
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_our_own_way }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_stalinismwithnewyorkcharacteristics
+		}
+	}
+
+	#Focus for New York Killing Fields
+	focus = {
+		id = NYN_new_york_killing_fields
+		icon = GFX_goal_generic_construct_military
+		x = 46
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_the_empire_state }
+		mutually_exclusive = { focus = NYN_the_big_apple_project }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_ideas = NYN_newyorkkillingfields
+		1088 = {
+            add_building_construction = {
+                type = bunker
+                province = 6707
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 9664
+                level = 2
+                instant_build = yes
+            }
+            }
+            1087 = {
+            add_building_construction = {
+                type = bunker
+                province = 11680
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 11650
+                level = 2
+                instant_build = yes
+            }
+            }
+            358 = {
+            add_building_construction = {
+                type = bunker
+                province = 6717
+                level = 2
+                instant_build = yes
+            }
+            }
+            1089 = {
+            add_building_construction = {
+                type = bunker
+                province = 11660
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 706
+                level = 2
+                instant_build = yes
+            }
+            }
+            1086 = {
+            add_building_construction = {
+                type = bunker
+                province = 3894
+                level = 2
+                instant_build = yes
+            }
+            }
+            1084 = {
+            add_building_construction = {
+                type = bunker
+                province = 13887
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 3878
+                level = 2
+                instant_build = yes
+            }
+            add_building_construction = {
+                type = bunker
+                province = 13870
+                level = 2
+                instant_build = yes
+            }
+            }
+		}
+	}
+
+	#Focus for Total Subjugation
+	focus = {
+		id = NYN_total_subjugation
+		icon = GFX_focus_CZE_german_puppet
+		x = 52
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_war_on_new_york_city }
+		ai_will_do = {
+			factor = 75
+		}
+				completion_reward = {
+				add_ideas = NYN_asubjugatednewyork
+					remove_ideas = {
+				NYN_newyorkcityriots
+			}
+		}
+	}
+
+	#Focus for The Great Compromise
+	focus = {
+		id = NYN_the_great_compromise
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 50
+		y = 4
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_appease_new_york_city }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+				add_political_power = 150
+					remove_ideas = {
+				NYN_newyorkcityriots
+			}
+		}
+	}
+
+	#Focus for Revenge For Plan Z
+	focus = {
+		id = NYN_revenge_for_plan_z
+		icon = GFX_focus_YUG_zmaj
+		x = 55
+		y = 3
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { focus = NYN_siege_ontario }
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 50
+		create_wargoal = { type = annex_everything target = MBM }
+		create_wargoal = { type = annex_everything target = SKS }
+		create_wargoal = { type = annex_everything target = ABA }
+		create_wargoal = { type = annex_everything target = BCB }
+		}
+	}
+
+	#Focus for The Best Defense...
+	focus = {
+		id = NYN_the_best_defense
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 66
+		y = 3
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NYN_war_in_new_hampshire 
+		}
+		prerequisite = { 
+			focus = NYN_war_in_vermont 
+		}
+		ai_will_do = {
+			factor = 75
+		}
+		completion_reward = {
+		add_political_power = 50
+		create_wargoal = { type = annex_everything target = MAM }
+		create_wargoal = { type = annex_everything target = MEM }
+		create_wargoal = { type = annex_everything target = NBN }
+		create_wargoal = { type = annex_everything target = QBC }
+	}
+	}
+ }
