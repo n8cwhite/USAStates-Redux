@@ -10,10 +10,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    conscription_factor = 0.30
+			    conscription_factor = 0.15
                 conscription = 0.05
-                army_infantry_attack_factor = 0.15
-				army_infantry_defence_factor = -0.05
+                army_infantry_attack_factor = 0.3
+				army_infantry_defence_factor = -0.03
 
 			}
     	}
@@ -28,9 +28,8 @@ ideas = {
 
 			modifier = {
 				army_defence_factor = 0.05
-				production_speed_industrial_complex_factor = 0.15
-				production_speed_infrastructure_factor = 0.15
-				send_volunteer_divisions_required = -1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
 				lend_lease_tension = -0.30
 				stability_weekly = 0.002
 				consumer_goods_factor = -0.05
@@ -47,7 +46,7 @@ ideas = {
 
 			modifier = {
 			communist_acceptance = 100
-			consumer_goods_factor = -0.15
+			consumer_goods_factor = -0.10
 			}
 		}
 
@@ -82,8 +81,8 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_arms_factory_factor = 0.1
 				consumer_goods_factor = -0.2
-				industrial_capacity_factory = 0.1
-				conscription = 0.08
+				industrial_capacity_factory = 0.05
+				conscription = 0.05
 			}
 		}
 
@@ -98,7 +97,7 @@ ideas = {
 			modifier = {
 			production_factory_efficiency_gain_factor = -0.05
 				consumer_goods_factor = -0.10
-				industrial_capacity_factory = 0.15
+				industrial_capacity_factory = 0.10
 			}
 		}
 
@@ -112,8 +111,8 @@ ideas = {
 
 			modifier = {
 			production_factory_efficiency_gain_factor = 0.05
-				consumer_goods_factor = -0.35
-				industrial_capacity_factory = 0.2
+				consumer_goods_factor = -0.25
+				industrial_capacity_factory = 0.10
 			}
 		}
 
@@ -142,10 +141,10 @@ ideas = {
 
 			modifier = {
 			consumer_goods_factor = -0.05
-			local_building_slots_factor = 0.35
-			industrial_capacity_factory = 0.15
-			industrial_capacity_dockyard = 0.15
-			production_factory_max_efficiency_factor = 0.1
+			local_building_slots_factor = 0.15
+			industrial_capacity_factory = 0.1
+			industrial_capacity_dockyard = 0.1
+			production_factory_max_efficiency_factor = 0.05
 			production_factory_efficiency_gain_factor = 0.1
 			industry_repair_factor = 0.5
 			}
@@ -161,7 +160,7 @@ ideas = {
 
 			modifier = {
 			conscription = 0.05
-			MONTHLY_POPULATION = 0.15
+			MONTHLY_POPULATION = 0.05
 			training_time_factor = -0.1
 			}
 		}
@@ -232,8 +231,8 @@ ideas = {
 			production_speed_arms_factory_factor = 0.1
 			production_speed_industrial_complex_factor = 0.1
 			production_speed_infrastructure_factor = 0.1
-			global_building_slots_factor = 0.15
-			conversion_cost_civ_to_mil_factor = -0.20
+			global_building_slots_factor = 0.05
+			conversion_cost_civ_to_mil_factor = -0.25
 
 			}
 		}
@@ -248,10 +247,10 @@ ideas = {
 
 			modifier = {
 			political_power_gain = 0.05
-			drift_defence_factor = 0.2
-			mobilization_speed = 0.15
-			army_core_attack_factor = 0.15
-			army_core_defence_factor = 0.15
+			drift_defence_factor = 0.1
+			mobilization_speed = 0.05
+			army_core_attack_factor = 0.03
+			army_core_defence_factor = 0.03
 			}
 		}
 
@@ -286,7 +285,7 @@ ideas = {
 			justify_war_goal_time = -0.75
 			stability_weekly = 0.05
 			MONTHLY_POPULATION = 0.1
-			supply_consumption_factor = -0.15
+			supply_consumption_factor = -0.05
 			attrition = -0.10
 			send_volunteers_tension = -0.20
 			send_volunteer_divisions_required = -0.50
@@ -309,7 +308,7 @@ ideas = {
 			army_core_defence_factor = 0.10
 			max_dig_in = 1
 			dig_in_speed = 0.15
-			land_reinforce_rate = 0.15
+			land_reinforce_rate = 0.05
 			}
 		}
 
@@ -326,7 +325,7 @@ ideas = {
 			production_speed_buildings_factor = 0.2
 			global_building_slots_factor = 0.15
 			production_factory_start_efficiency_factor = 0.05
-			industry_repair_factor = 0.25
+			industry_repair_factor = 0.15
 			}
 		}
 
@@ -344,7 +343,7 @@ ideas = {
 			drift_defence_factor = 0.25
 			training_time_army_factor = -0.15
 			supply_consumption_factor = -0.10
-			land_reinforce_rate = 0.10
+			land_reinforce_rate = 0.05
 			}
 		}
 
@@ -376,7 +375,7 @@ ideas = {
 			weekly_manpower = 2500
 			defence = 0.05
 			offence = 0.05
-			army_speed_factor = 0.05
+			army_speed_factor = 0.02
 			attrition = -0.1
 			}
 		}
@@ -391,9 +390,9 @@ ideas = {
 
 			modifier = {
 			justify_war_goal_time = -0.55
-			consumer_goods_factor = 0.10
-			MONTHLY_POPULATION = 0.5
-			weekly_manpower = 5000
+			consumer_goods_factor = 0.25
+			MONTHLY_POPULATION = 0.35
+			weekly_manpower = 3000
 			defence = -0.10
 			offence = -0.10
 			attrition = -0.1
@@ -410,7 +409,7 @@ ideas = {
 
 			modifier = {
 			justify_war_goal_time = -0.90
-			consumer_goods_factor = -0.10
+			consumer_goods_factor = 0.10
 			MONTHLY_POPULATION = 0.25
 			defence = 0.02
 			offence = 0.02
@@ -430,8 +429,8 @@ ideas = {
 
 			modifier = {
 			justify_war_goal_time = 0.15
-			consumer_goods_factor = -0.15
-			army_core_defence_factor = 0.1
+			consumer_goods_factor = -0.1
+			army_core_defence_factor = 0.05
 			army_org_factor = 0.05
 			max_planning = 0.30
 			}
@@ -446,7 +445,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			non_core_manpower = 0.05
+			non_core_manpower = 0.1
 			research_speed_factor = -0.20
 			consumer_goods_factor = -0.05
 			local_building_slots_factor = 0.15
@@ -514,11 +513,11 @@ ideas = {
 
 			modifier = {
 			fascism_drift = 0.10
-			political_power_gain = 0.1
+			political_power_gain = -0.05
 			stability_weekly = 0.03
 			non_core_manpower = 0.02
-			production_factory_max_efficiency_factor = 0.1
-			line_change_production_efficiency_factor = 0.1
+			production_factory_max_efficiency_factor = 0.02
+			line_change_production_efficiency_factor = 0.02
 			}
 		}
 
@@ -534,8 +533,8 @@ ideas = {
 			modifier = {
 			communism_drift = 0.10
 			political_power_gain = 0.15
-			production_factory_max_efficiency_factor = 0.15
-			line_change_production_efficiency_factor = -0.15
+			production_factory_max_efficiency_factor = 0.1
+			line_change_production_efficiency_factor = -0.1
 			industrial_capacity_factory = 0.5
 			industry_repair_factor = 0.05
 			}
@@ -550,8 +549,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			army_core_defence_factor = 0.1
-			army_core_attack_factor = 0.1
+			army_core_defence_factor = 0.02
+			army_core_attack_factor = 0.02
 			max_dig_in = 1
 			production_speed_bunker_factor = 0.25
 			production_speed_coastal_bunker_factor = 0.25
