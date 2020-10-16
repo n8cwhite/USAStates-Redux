@@ -2230,6 +2230,7 @@ focus_tree = {
 				target = TXT
 				decision = ban_democratic_party
 			}
+			remove_ideas = TXT_democratic_threat_4
 		}
 	}
 
@@ -2357,6 +2358,25 @@ focus_tree = {
 			add_ideas = {
 				extensive_conscription
 			}
+		}
+	}
+	focus = {
+		id = TXT_revoltionary_military
+		icon = GFX_Generic_Crouched_Soldier
+		prerequisite = {
+			focus = TXT_mandatory_service
+		}
+		prerequisite = {
+			focus = TXT_moderninfantry
+		}
+
+		cost = 10
+
+		x = 28
+		y = 5
+
+		completion_reward = {
+			remove_ideas = TXT_idea_confused_army_2
 		}
 	}
 
@@ -2491,6 +2511,23 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = TXT_homelessconscription
+		}
+	}
+	focus = {
+		id = TXT_slackenstandards
+		icon = GFX_Generic_Socialist_Soldier
+		prerequisite = {
+			focus = TXT_homelessconscripts
+			focus = TXT_perpetualwarfare
+		}
+
+		cost = 10
+
+		x = 31
+		y = 11
+
+		completion_reward = {
+			add_ideas = TXT_slackenedstandards
 		}
 	}
 	focus = {
@@ -2711,9 +2748,9 @@ focus_tree = {
 	}
 	focus = {
 		id = TXT_destroy_american_dream
-		icon = GFX_Focus_Down_in_Flames
+		icon = GFX_Focus_SOV_To_Get_Rich
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_POLITICAL
 		}
 		offset = {
 			x = -10
@@ -2735,8 +2772,318 @@ focus_tree = {
 		y = 8
 
 		completion_reward = {
+			add_stability = -0.02
 			add_ideas = TXT_kill_dream
 		}
+	}
+	focus = {
+		id = TXT_redistributewealth
+		icon = GFX_CAC_relieve_states
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_destroy_american_dream
+		}
+
+		x = 38
+		y = 9
+
+		completion_reward = {
+			add_ideas = GEN_redistribution
+		}
+	}
+	focus = {
+		id = TXT_revolitionaryfervor
+		icon = GFX_Generic_Socialist_Revolution
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 5
+
+		prerequisite = {
+			focus = TXT_replicate_five_year
+		}
+
+		x = 36
+		y = 8
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = TXT_counterrevolt
+		icon = GFX_Generic_Army_Focus_Red02
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		prerequisite = {
+			focus = TXT_revolitionaryfervor
+		}
+
+		x = 36
+		y = 9
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = TXT_ban_opposition
+					}
+				}
+				random_list = {
+					30 = {
+						activate_targeted_decision = {
+							target = TXT
+							decision = ban_fascist_party
+						}
+						add_popularity = {
+							ideology = communism
+							popularity = 0.10
+						}
+					}
+					70 = {
+						start_civil_war = {
+			        ideology = fascism
+			        size = 0.3
+			        states = {
+			          896 905 906 895 899 900
+			        }
+			      }
+						hidden_effect = {
+				      random_other_country = {
+								limit = {
+									original_tag = TXT
+									has_government = fascism
+								}
+				        set_capital = 895
+								load_oob = "TXT_dem_Civil_War"
+								set_equipment_fraction = 0.5
+								set_stability = 0.23
+								set_war_support = 0.8
+							}
+						}
+			      TXT = {
+							hidden_effect = {
+								load_oob = "TXT_fas_civil_war"
+				        set_equipment_fraction = 0.5
+				        set_stability = 0.19
+				        set_war_support = 0.78
+							}
+			        set_politics = {
+			  				ruling_party = communism
+			  				elections_allowed = no
+			  			}
+			      }
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_civilwar_boost1
+		icon = GFX_Generic_Barricade
+		prerequisite = {
+			focus = TXT_counterrevolt
+		}
+		available = {
+			has_war = yes
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 34
+		y = 10
+
+		completion_reward = {
+			894 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+			add_stability = -0.03
+		}
+	}
+	focus = {
+		id = TXT_civilwar_boost2
+		icon = GFX_Generic_Train
+		prerequisite = {
+			focus = TXT_civilwar_boost1
+		}
+		available = {
+			has_war = yes
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 33
+		y = 11
+
+		completion_reward = {
+			894 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			904 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			898 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_stability = -0.03
+			add_war_support = -0.05
+		}
+	}
+	focus = {
+		id = TXT_civilwar_boost3
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {
+			focus = TXT_civilwar_boost1
+		}
+		available = {
+			has_war = yes
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 35
+		y = 11
+
+		completion_reward = {
+			894 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			375 = {
+				add_building_construction = {
+					type = arms_factory
+					level = -2
+					instant_build = yes
+				}
+			}
+			add_stability = -0.05
+			add_war_support = -0.07
+		}
+	}
+	focus = {
+		id = TXT_begin_reconfidence
+		icon = GFX_Generic_Revolutionary_Government
+		prerequisite = {
+			focus = TXT_counterrevolt
+		}
+		prerequisite = {
+			focus = TXT_redistributewealth
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 37
+		y = 10
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+	focus = {
+
 	}
 	#Industry Tree
 	focus = {
@@ -3773,6 +4120,166 @@ focus_tree = {
 				bonus = 1.50
 				uses = 2
 				category = tp_tech
+			}
+		}
+	}
+#Naval Tree
+	focus = {
+		id = TXT_new_estimates
+		icon = GFX_Generic_Naval_Treaty
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		x = 40
+		y = 5
+
+		cost = 10
+
+		completion_reward = {
+			limit = {
+				894 = {
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+			}
+			894 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_fleet_being
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = {
+			focus = TXT_new_estimates
+		}
+		mutually_exclusive = {
+			focus = TXT_aerialdominance
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 38
+		y = 6
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_fleet_being
+				bonus = 1.50
+				uses = 2
+				category = bb_tech
+			}
+		}
+	}
+	focus = {
+		id = TXT_cruisers
+		icon = GFX_focus_generic_cruiser2
+		prerequisite = {
+			focus = TXT_fleet_being
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 38
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+        name = TXT_cruisers
+        bonus = 1.0
+        uses = 2
+        category = bc_tech
+      }
+		}
+	}
+	focus = {
+		id = TXT_surface_fleet
+		icon = GFX_focus_generic_destroyer
+		prerequisite = {
+			focus = TXT_fleet_being
+			focus = TXT_aerialdominance
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 40
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_surface_fleet
+				bonus = 1.0
+				uses = 2
+        category = dd_tech
+			}
+		}
+	}
+	focus = {
+		id = TXT_aerialdominance
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = {
+			focus = TXT_new_estimates
+		}
+		mutually_exclusive = {
+			focus = TXT_fleet_being
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 42
+		y = 6
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_aerialdominance
+				bonus = 1.0
+				uses = 2
+				category = cv_tech
+			}
+		}
+	}
+	focus = {
+		id = TXT_navalbombers
+		icon = GFX_Generic_Bombs
+		prerequisite = {
+			focus = TXT_aerialdominance
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 42
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_navalbombers
+				bonus = 1.5
+				uses = 2
+				category = naval_bomber
 			}
 		}
 	}

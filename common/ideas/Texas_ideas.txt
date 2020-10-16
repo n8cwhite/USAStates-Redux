@@ -853,6 +853,21 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+		TXT_slackenedstandards = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = -0.05
+				conscription = 0.01
+			}
+		}
 		TXT_bomb_proof = {
 			allowed = {
 				always = no
