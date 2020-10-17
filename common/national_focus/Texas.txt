@@ -2477,7 +2477,7 @@ focus_tree = {
 		y = 8
 
 		completion_reward = {
-			unlock_decision_category_tooltip = TXT_hands_on
+			custom_effect_tooltip = TXT_revolution_operations
 		}
 	}
 	focus = {
@@ -2930,7 +2930,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 2.9
 
 		x = 34
 		y = 10
@@ -2972,7 +2972,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 4.3
 
 		x = 33
 		y = 11
@@ -3029,7 +3029,7 @@ focus_tree = {
 			}
 		}
 
-		cost = 10
+		cost = 2.9
 
 		x = 35
 		y = 11
@@ -3074,7 +3074,7 @@ focus_tree = {
 
 		cost = 10
 
-		x = 37
+		x = 38
 		y = 10
 
 		completion_reward = {
@@ -3083,7 +3083,29 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_rebuild_TX
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = {
+			focus = TXT_begin_reconfidence
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
 
+		cost = 10
+
+		x = 37
+		y = 11
+
+		completion_reward = {
+
+		}
 	}
 	#Industry Tree
 	focus = {
@@ -4137,21 +4159,23 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = {
-			limit = {
-				894 = {
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
+			if = {
+				limit = {
+					894 = {
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
 					}
 				}
-			}
-			894 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
+				894 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
 				}
 			}
 		}
@@ -4233,6 +4257,30 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_convoydestruction
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = {
+			focus = TXT_surface_fleet
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 40
+		y = 8
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 2.0
+				uses = 2
+        category = ss_tech
+			}
+		}
+	}
+	focus = {
 		id = TXT_aerialdominance
 		icon = GFX_goal_generic_navy_carrier
 		prerequisite = {
@@ -4283,4 +4331,235 @@ focus_tree = {
 			}
 		}
 	}
+#Air Force
+	focus = {
+		id = TXT_aviation
+		icon = GFX_goal_generic_build_airforce
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+
+		x = 46
+		y = 5
+
+		cost = 10
+
+		completion_reward = {
+			air_experience = 25
+			375 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_desperatedefense
+		icon = GFX_Generic_Air_Defense
+		prerequisite = {
+			focus = TXT_aviation
+		}
+		available = {
+			has_war = yes
+		}
+
+		x = 47
+		y = 6
+
+		cost = 7.2
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			895 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			894 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_fightermodernization
+		icon = GFX_focus_chi_flying_tigers
+		prerequisite = {
+			focus = TXT_aviation
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 44
+		y = 6
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_fightermodernization
+				bonus = 1.5
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = TXT_fighterhomedefence
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = {
+			focus = TXT_fightermodernization
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			NOT = {
+				has_completed_focus = TXT_rangedfighters
+			}
+		}
+
+		x = 44
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_fighterhomedefence
+				bonus = 1.5
+				uses = 2
+				category = light_fighter
+			}
+		}
+	}
+	focus = {
+		id = TXT_rangedfighters
+		icon = GFX_focus_usa_escort_fighters
+		prerequisite = {
+			focus = TXT_fightermodernization
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			NOT = {
+				has_completed_focus = TXT_fighterhomedefence
+			}
+		}
+
+		x = 46
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_rangedfighters
+				bonus = 1.5
+				uses = 2
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = TXT_bombermodernization
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = {
+			focus = TXT_aviation
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+
+		x = 50
+		y = 6
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_bombermodernization
+				bonus = 1.5
+				uses = 2
+				category = cat_strategic_bomber
+  			category = tactical_bomber
+			}
+		}
+	}
+	focus = {
+		id = TXT_strategic_bombing
+		icon = GFX_WAW_streamline_bomber_production
+		prerequisite = {
+			focus = TXT_bombermodernization
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			NOT = {
+				has_completed_focus = TXT_frontline_bombing
+			}
+		}
+
+		x = 48
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_bombermodernization
+				bonus = 2
+				uses = 2
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = TXT_frontline_bombing
+		icon = GFX_Generic_Bombs
+		prerequisite = {
+			focus = TXT_bombermodernization
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			NOT = {
+				has_completed_focus = TXT_strategic_bombing
+			}
+		}
+
+		x = 50
+		y = 7
+
+		cost = 10
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = TXT_frontline_bombing
+				bonus = 2.0
+				uses = 2
+				category = tactical_bomber
+				category = cas_bomber
+			}
+		}
+	}
+
 }
