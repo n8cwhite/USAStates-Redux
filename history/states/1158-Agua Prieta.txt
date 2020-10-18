@@ -1,0 +1,18 @@
+state={
+	id=1158
+	name="Agua Prieta"
+	history={
+		owner = SON
+		add_core_of = SON
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		5071 13214 13457
+	}
+	manpower=84741
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

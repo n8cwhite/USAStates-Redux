@@ -1,3 +1,4 @@
+
 state={
 	id=1148
 	name="Sonora"
@@ -8,12 +9,13 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 
 	}
 
 	provinces={
-		4908 10765 10848 13214 13426 13444 13450 13457
+		4908 10765 10848 13426 13444 13450 
 	}
 	manpower=201314
 	buildings_max_level_factor=1.000
