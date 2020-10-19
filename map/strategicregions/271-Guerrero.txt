@@ -3,7 +3,7 @@ strategic_region={
 	id=271
 	name="Guerrero"
 	provinces={
-		5066 10730 10832 13341 13351 
+		4887 5066 8032 10730 10832 13341 13351 13365 
 	}
 	weather={
 	}
