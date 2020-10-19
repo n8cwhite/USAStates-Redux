@@ -1,0 +1,19 @@
+state={
+	id=1159
+	name="Guadalupe y Calvo"
+	history={
+		owner = CIA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = CIA
+		add_core_of = MEX
+	}
+	provinces={
+		4898 10916 13410 13412
+	}
+	manpower=59632
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

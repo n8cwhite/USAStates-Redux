@@ -1,0 +1,17 @@
+state={
+	id=1170
+	name="Northwestern Plains and Sierras"
+	history={
+		owner = NAY
+		add_core_of = NAY
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		12873 13380 13386 
+	}
+	manpower=65410
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

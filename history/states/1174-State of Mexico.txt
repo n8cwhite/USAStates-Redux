@@ -1,0 +1,19 @@
+state={
+	id=1174
+	name="State of Mexico"
+	history = {
+		owner = OME
+		add_core_of = OME
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		2011 12755 13369 
+	}
+	manpower=1897851
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

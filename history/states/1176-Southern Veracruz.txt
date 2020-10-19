@@ -1,0 +1,22 @@
+state={
+	id=1176
+	name="Southern Veracruz"
+	resources = {
+		oil = 29.000
+	}
+	history = {
+		owner = VEC
+		add_core_of = VEC
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		2021 10889 13340 
+	}
+	manpower=981030
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

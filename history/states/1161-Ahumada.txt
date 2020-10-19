@@ -1,0 +1,19 @@
+state={
+	id=1161
+	name="Ahumada"
+	history = {
+		owner = CIA
+		add_core_of = CIA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		2037 8097 13439 13458 13464 13501 
+	}
+	manpower=104254
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

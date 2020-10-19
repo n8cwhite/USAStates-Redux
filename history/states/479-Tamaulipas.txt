@@ -1,7 +1,6 @@
-
 state={
 	id=479
-	name="STATE_479"
+	name="Tamaulipas"
 	resources={
 		oil=19.000
 		steel=25.000
@@ -9,26 +8,18 @@ state={
 
 	history={
 		owner = TAU
+		add_core_of = TAU
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-
+			industrial_complex = 3
+			arms_factory = 2
 		}
-		add_core_of = TAU
-		add_core_of = MEX
-		victory_points = {
-			4956 10 
-		}
-		victory_points = {
-			5015 5 
-		}
-
 	}
 
 	provinces={
-		1952 2083 4956 5015 5021 12721 13088 13388 13397 13398 
+		5015 5021 13088 13388 
 	}
 	manpower=1432988
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 }

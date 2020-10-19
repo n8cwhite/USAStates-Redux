@@ -1,0 +1,21 @@
+state={
+	id=1166
+	name="Rio Grande Valley"
+	resources = {
+		oil=8.000
+	}
+	history={
+		owner = COU
+		add_core_of = COU
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		2060 10769 12811 12835 13408 
+	}
+	manpower=94012
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

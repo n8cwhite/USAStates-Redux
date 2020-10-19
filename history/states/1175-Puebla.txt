@@ -1,0 +1,22 @@
+state={
+	id=1175
+	name="Puebla"
+	resources = {
+		steel = 17.000
+		chromium = 12.000
+	}
+	history = {
+		owner = VEC
+		add_core_of = VEC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		8089 13360 
+	}
+	manpower=1625830
+	buildings_max_level_factor=1.000
+	state_category = city
+}
