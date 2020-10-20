@@ -10,25 +10,19 @@ state={
 
 	history={
 		owner = OME
+		add_core_of = OME
 		buildings = {
-			infrastructure = 5
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 4
-			air_base = 3
-
+			air_base = 4
 		}
-		add_core_of = OME
-		add_core_of = MEX
-		victory_points = {
-			2011 25 
-		}
-
 	}
 
 	provinces={
-		1965 2008 2011 7913 12755 13357 13359 13362 13366 13367 13369 13372 13373 13377 13381 13385 
+		1965 13357 13359 13362 13366 13367 13372 13373 
 	}
 	manpower=1424403
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

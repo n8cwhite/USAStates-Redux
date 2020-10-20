@@ -1,0 +1,19 @@
+state={
+	id=1173
+	name="Guanajuato"
+	history = {
+		owner = OME
+		add_core_of = OME
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+		}
+	}
+	provinces={
+		2008 13381 13385 
+	}
+	manpower=1328712
+	buildings_max_level_factor=1.000
+	state_category = city
+}

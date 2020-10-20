@@ -1,0 +1,22 @@
+state={
+	id=1172
+	name="Hidalgo"
+	resources = {
+		steel = 18.000
+	}
+	history={
+		owner = OME
+		add_core_of = OME
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		7913 13377 
+	}
+	manpower=994010
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

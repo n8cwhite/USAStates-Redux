@@ -1,0 +1,17 @@
+state={
+	id=1168
+	name="Sierra de Tamaulipas"
+	history = {
+		owner = TAU
+		add_core_of = TAU
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		12721 13397 13398 
+	}
+	manpower=21012
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}
