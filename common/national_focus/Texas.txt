@@ -2469,11 +2469,8 @@ focus_tree = {
 		prerequisite = {
 			focus = TXT_intelligence_focus
 		}
-		mutually_exclusive = {
-			focus = TXT_handsoff
-		}
 
-		x = 32
+		x = 26
 		y = 8
 
 		completion_reward = {
@@ -2488,7 +2485,7 @@ focus_tree = {
 		}
 		cost = 10
 
-		x = 31
+		x = 29
 		y = 9
 
 		completion_reward = {
@@ -2506,7 +2503,7 @@ focus_tree = {
 		}
 		cost = 10
 
-		x = 31
+		x = 29
 		y = 10
 
 		completion_reward = {
@@ -2523,7 +2520,7 @@ focus_tree = {
 
 		cost = 10
 
-		x = 31
+		x = 29
 		y = 11
 
 		completion_reward = {
@@ -2537,7 +2534,7 @@ focus_tree = {
 			focus = TXT_prepareintervention
 		}
 		cost = 10
-		x = 29
+		x = 27
 		y = 10
 
 		completion_reward = {
@@ -2552,33 +2549,14 @@ focus_tree = {
 		}
 		cost = 10
 
-		x = 33
+		x = 31
 		y = 9
 
 		completion_reward = {
 			add_ideas = TXT_cheap_guns
 		}
 	}
-	focus = {
-		id = TXT_handsoff
-		icon = GFX_Generic_Revolutionary_Republic
 
-		cost = 10
-
-		prerequisite = {
-			focus = TXT_intelligence_focus
-		}
-		mutually_exclusive = {
-			focus = TXT_handson
-		}
-
-		x = 24
-		y = 8
-
-		completion_reward = {
-			unlock_decision_category_tooltip = TXT_hands_off
-		}
-	}
 	focus = {
 		id = TXT_arms_foreign
 		icon = GFX_Generic_Industry_Planes
@@ -2586,7 +2564,7 @@ focus_tree = {
 		cost = 10
 
 		prerequisite = {
-			focus = TXT_handsoff
+			focus = TXT_handson
 		}
 
 		x = 23
@@ -2607,7 +2585,7 @@ focus_tree = {
 		id = TXT_propaganda_targeting
 		icon = GFX_Generic_Radio_Broadcast
 		prerequisite = {
-			focus = TXT_handsoff
+			focus = TXT_handson
 		}
 
 		cost = 10
@@ -2664,12 +2642,12 @@ focus_tree = {
 		id = TXT_american_beacon
 		icon = GFX_Generic_Communist_Propaganda
 		prerequisite = {
-			focus = TXT_propaganda_targeting
+			focus = TXT_handson
 		}
 
 		cost = 10
 		x = 27
-		y = 10
+		y = 9
 
 		completion_reward = {
 			every_neighbor_country = {
@@ -2707,7 +2685,7 @@ focus_tree = {
 			has_country_flag = TXT_chose_stalin
 		}
 
-		x = 36
+		x = 35
 		y = 6
 
 		completion_reward = {
@@ -2736,7 +2714,7 @@ focus_tree = {
 			focus = TXT_stalinism
 		}
 
-		x = 36
+		x = 35
 		y = 7
 
 		completion_reward = {
@@ -2768,7 +2746,7 @@ focus_tree = {
 			focus = TXT_replicate_five_year
 		}
 
-		x = 38
+		x = 37
 		y = 8
 
 		completion_reward = {
@@ -2795,7 +2773,7 @@ focus_tree = {
 			focus = TXT_destroy_american_dream
 		}
 
-		x = 38
+		x = 37
 		y = 9
 
 		completion_reward = {
@@ -2825,7 +2803,7 @@ focus_tree = {
 			focus = TXT_replicate_five_year
 		}
 
-		x = 36
+		x = 35
 		y = 8
 
 		completion_reward = {
@@ -2852,7 +2830,7 @@ focus_tree = {
 			focus = TXT_revolitionaryfervor
 		}
 
-		x = 36
+		x = 35
 		y = 9
 
 		completion_reward = {
@@ -2932,7 +2910,7 @@ focus_tree = {
 
 		cost = 2.9
 
-		x = 34
+		x = 33
 		y = 10
 
 		completion_reward = {
@@ -2974,7 +2952,7 @@ focus_tree = {
 
 		cost = 4.3
 
-		x = 33
+		x = 32
 		y = 11
 
 		completion_reward = {
@@ -3031,7 +3009,7 @@ focus_tree = {
 
 		cost = 2.9
 
-		x = 35
+		x = 34
 		y = 11
 
 		completion_reward = {
@@ -3083,6 +3061,115 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = TXT_improve_agriculture
+		icon = GFX_Generic_Farming
+		prerequisite = {
+			focus = TXT_begin_reconfidence
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 40
+		y = 11
+
+		completion_reward = {
+			add_ideas = TXT_agrarian_benefits
+		}
+	}
+	focus = {
+		id = TXT_guaranteedhealthcare
+		icon = GFX_Generic_Medicine02
+		prerequisite = {
+			focus = TXT_improve_agriculture
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 40
+		y = 12
+
+		completion_reward = {
+			add_ideas = TXT_free_healthcare
+		}
+	}
+	focus = {
+		id = TXT_equalityforall
+		icon = GFX_Generic_Working_Class_Family
+		prerequisite = {
+			focus = TXT_improve_agriculture
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 42
+		y = 12
+
+		completion_reward = {
+			add_ideas = TXT_egalitarianism
+		}
+	}
+	focus = {
+		id = TXT_spread_ideals
+		icon = GFX_Generic_Draw_Up_Plans
+		prerequisite = {
+			focus = TXT_equalityforall
+		}
+		prerequisite = {
+			focus = TXT_guaranteedhealthcare
+		}
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 41
+		y = 13
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = OKO
+			}
+		}
+	}
+	focus = {
 		id = TXT_rebuild_TX
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = {
@@ -3100,11 +3187,314 @@ focus_tree = {
 
 		cost = 10
 
-		x = 37
+		x = 36
 		y = 11
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_rebuildthenation
+				days = 200
+			}
+		}
+	}
+	focus = {
+		id = TXT_renovate_austin
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_rebuild_TX
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
 
+		cost = 10
+
+		x = 34
+		y = 12
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_upgrade_austin
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = TXT_renovation_complete
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_renovate_austin
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			NOT = {
+				has_idea = TXT_upgrade_austin
+			}
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 0
+
+		x = 34
+		y = 13
+
+		completion_reward = {
+			custom_effect_tooltip = TXT_upgrade_austin_tt
+			hidden_effect = {
+				375 = {
+					set_state_category = megalopolis
+					add_building_construction = {
+						type = naval_base
+						location = 10337
+						level = 10
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = naval_base
+						location = 13451
+						level = 10
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_industrial_complexes
+		icon = GFX_Generic_Factory_Complex
+		prerequisite = {
+			focus = TXT_renovation_complete
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 14.3
+
+		x = 33
+		y = 14
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_arms_factoriesAU
+		icon = GFX_Generic_Industry_Tanks
+		prerequisite = {
+			focus = TXT_renovation_complete
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 14.3
+
+		x = 35
+		y = 14
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_renovate_houston
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = TXT_rebuild_TX
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 10
+
+		x = 38
+		y = 12
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TXT_upgrade_houston
+				days = 100
+			}
+		}
+	}
+	focus = {
+		id = TXT_renovation_completeHU
+		icon = GFX_Generic_Naval_Industry
+		prerequisite = {
+			focus = TXT_renovate_houston
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available = {
+			NOT = {
+				has_idea = TXT_upgrade_houston
+			}
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 0
+
+		x = 38
+		y = 13
+
+		completion_reward = {
+			custom_effect_tooltip = TXT_upgrade_houston_tt
+			hidden_effect = {
+				894 = {
+					set_state_category = megalopolis
+				}
+				894 = {
+					add_building_construction = {
+						type = naval_base
+						level = 10
+						province = 13451
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 10
+						province = 10337
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_industrial_complexesHU
+		icon = GFX_Generic_Factory_Planning
+		prerequisite = {
+			focus = TXT_renovation_completeHU
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 14.3
+
+		x = 37
+		y = 14
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = TXT_dockyardsHU
+		icon = GFX_Generic_Coastal_Focus_Navy
+		prerequisite = {
+			focus = TXT_renovation_completeHU
+		}
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				NOT = {
+					has_dlc = "La Resistance"
+				}
+			}
+		}
+
+		cost = 14.3
+
+		x = 39
+		y = 14
+
+		completion_reward = {
+			375 = {
+				add_building_construction = {
+					type = dockyard
+					level = 8
+					instant_build = yes
+				}
+			}
 		}
 	}
 	#Industry Tree
@@ -4559,6 +4949,50 @@ focus_tree = {
 				category = tactical_bomber
 				category = cas_bomber
 			}
+		}
+	}
+	focus = {
+		id = TXT_extraresearch
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = TXT_beginindustrialization
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			num_of_factories > 50
+		}
+
+		x = 43
+		y = 1
+
+		cost = 10
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = TXT_extraresearch2
+		icon = GFX_focus_research
+		prerequisite = {
+			focus = TXT_extraresearch
+		}
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		available = {
+			num_of_factories > 100
+		}
+
+		x = 43
+		y = 2
+
+		cost = 10
+
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 

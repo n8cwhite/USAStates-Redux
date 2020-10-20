@@ -2,7 +2,8 @@ ideas = {
 	country = {
 		TXT_idea_purged = {
 
-			picture = GFX_idea_hol_aloof_neutrality
+			picture = generic_purge
+
 			allowed = {
 				always = no
 			}
@@ -22,7 +23,7 @@ ideas = {
 
 		TXT_idea_civwar = {
 
-		picture = GFX_idea_generic_disjointed_gov
+		picture = idea_generic_disjointed_gov
 
 			allowed = {
 				always = no
@@ -43,6 +44,9 @@ ideas = {
 			}
 		}
 		TXT_idea_extensive_training = {
+
+			picture = generic_manpower_bonus
+
 			allowed = {
 				always = no
 			}
@@ -59,6 +63,9 @@ ideas = {
 			}
 		}
 		TXT_idea_grand_army = {
+
+			picture = FRA_army_of_aggression_focus
+
 			allowed = {
 				always = no
 			}
@@ -74,6 +81,9 @@ ideas = {
 			}
 		}
 		TXT_idea_broken_morale = {
+
+			picture = prc_low_popular_support3
+
 			allowed = {
 				always = no
 			}
@@ -91,6 +101,9 @@ ideas = {
 			}
 		}
 		TXT_idea_lowered_morale = {
+
+			picture = prc_low_popular_support2
+
 			allowed = {
 				always = no
 			}
@@ -108,6 +121,9 @@ ideas = {
 			}
 		}
 		TXT_idea_reconstruction = {
+
+			picture = generic_foreign_capital
+
 			allowed = {
 				always = no
 			}
@@ -126,7 +142,7 @@ ideas = {
 		}
 		TXT_idea_rangers = {
 
-			picture = GFX_idea_general_staff
+			picture = general_staff
 
 			allowed = {
 				always = no
@@ -147,7 +163,7 @@ ideas = {
 			picture = focus_YUG_pan_slavic_congress
 
 			allowed = {
-			always = no
+				always = no
 			}
 			allowed_civil_war = {
 		  has_government = communism
@@ -161,10 +177,11 @@ ideas = {
 			}
 		}
 			TXT_idea_texandiplo = {
+
 			picture = idea_generic_pp_unity_bonus
 
 			allowed = {
-			always = yes
+				always = yes
 			}
 
 			removal_cost = -1
@@ -175,9 +192,11 @@ ideas = {
 			}
 		}
 			TXT_idea_tradepower = {
-			picture = idea_generic_pp_unity_bonus
+
+			picture = generic_pp_unity_bonus
+
 			allowed = {
-			always = no
+				always = no
 			}
 			removal_cost = -1
 
@@ -187,9 +206,11 @@ ideas = {
 			}
 		}
 		TXT_idea_boost =  {
-			picture = idea_generic_pp_unity_bonus
+
+			picture = generic_pp_unity_bonus
+
 			allowed = {
-			always = no
+				always = no
 			}
 			removal_cost = -1
 
@@ -217,6 +238,8 @@ ideas = {
 		}
 		TXT_idea_expand_industry = {
 
+			picture = idea_generic_industrial_concern_1
+
 			allowed = {
 				always = no
 			}
@@ -237,6 +260,9 @@ ideas = {
 			}
 		}
 		TXT_idea_subsidized_factories = {
+
+			picture = generic_central_management
+
 			allowed = {
 				always = no
 			}
@@ -253,6 +279,9 @@ ideas = {
 			}
 		}
 		TXT_idea_state_railroad = {
+
+			picture = generic_build_infrastructure
+
 			allowed = {
 				always = no
 			}
@@ -267,6 +296,8 @@ ideas = {
 			}
 		}
 		TXT_idea_public_arrests = {
+
+			picture = generic_disjointed_gov
 
 			allowed = {
 				always = no
@@ -286,6 +317,9 @@ ideas = {
 			}
 		}
 		TXT_idea_our_new_empire = {
+
+			picture = generic_victors_of_ww1
+
 			allowed = {
 				always = no
 			}
@@ -304,6 +338,9 @@ ideas = {
 			}
 		}
 		TXT_idea_military_youth = {
+
+			picture = idea_generic_army_war_college
+
 			allowed = {
 				always = no
 			}
@@ -319,6 +356,8 @@ ideas = {
 			}
 		}
 		TXT_idea_high_command_support = {
+
+			picture = generic_manpower_bonus
 
 			allowed = {
 				always = no
@@ -336,6 +375,8 @@ ideas = {
 		}
 		TXT_idea_army_support = {
 
+			picture = generic_army_war_college
+
 			allowed = {
 				always = no
 			}
@@ -352,6 +393,8 @@ ideas = {
 			}
 		}
 		TXT_idea_defend_democracy = {
+
+			picture = generic_victors_of_ww1
 
 			allowed = {
 				always = no
@@ -373,6 +416,8 @@ ideas = {
 		}
 		TXT_idea_democratic_struggle = {
 
+			picture = generic_democratic_drift_bonus
+
 			allowed = {
 				always = no
 			}
@@ -391,6 +436,9 @@ ideas = {
 			}
 		}
 		TXT_idea_general_rearm = {
+
+			picture = HUN_secret_rearmament
+
       allowed = {
         always = no
       }
@@ -408,6 +456,9 @@ ideas = {
       }
     }
 		TXT_idea_hope_for_republic = {
+
+			picture = generic_victors_of_ww1
+
 			allowed = {
 				always = no
 			}
@@ -424,6 +475,9 @@ ideas = {
 			}
 		}
 		TXT_idea_democratic_nationalism = {
+
+			picture = generic_democratic_drift_bonus
+
       allowed = {
         always = no
       }
@@ -443,6 +497,9 @@ ideas = {
     }
 		##Communism
 		TXT_idea_low_government_support = {
+
+			picture = prc_low_popular_support3
+
 			allowed = {
 				always = no
 			}
@@ -462,6 +519,7 @@ ideas = {
 		}
 		TXT_idea_confused_army_3 = {
 			name = TXT_idea_confused_army
+			picture = chi_incompetent_officers
 			allowed = {
 				always = no
 			}
@@ -484,6 +542,7 @@ ideas = {
 		}
 		TXT_idea_confused_army_2 = {
 			name = TXT_idea_confused_army
+			picture = chi_incompetent_officers
 			allowed = {
 				always = no
 			}
@@ -506,6 +565,7 @@ ideas = {
 		}
 		TXT_idea_confused_army_1 = {
 			name = TXT_idea_confused_army
+			picture = chi_incompetent_officers
 			allowed = {
 				always = no
 			}
@@ -529,6 +589,7 @@ ideas = {
 
 		TXT_democratic_threat_5 = {
 			name = TXT_democratic_threat
+			picture = anti_soviet_pact
 			allowed = {
 				always = no
 			}
@@ -547,6 +608,7 @@ ideas = {
 		}
 		TXT_democratic_threat_4 = {
 			name = TXT_democratic_threat
+			picture = anti_soviet_pact
 			allowed = {
 				always = no
 			}
@@ -565,6 +627,7 @@ ideas = {
 		}
 		TXT_democratic_threat_3 = {
 			name = TXT_democratic_threat
+			picture = anti_soviet_pact
 			allowed = {
 				always = no
 			}
@@ -583,6 +646,7 @@ ideas = {
 		}
 		TXT_democratic_threat_2 = {
 			name = TXT_democratic_threat
+			picture = anti_soviet_pact
 			allowed = {
 				always = no
 			}
@@ -601,6 +665,7 @@ ideas = {
 		}
 		TXT_democratic_threat_1 = {
 			name = TXT_democratic_threat
+			picture = anti_soviet_pact
 			allowed = {
 				always = no
 			}
@@ -618,6 +683,9 @@ ideas = {
 			}
 		}
 		TXT_idea_proletarian_diplomacy = {
+
+			picture = home_of_the_revolution
+
 			allowed = {
 				always = no
 			}
@@ -634,6 +702,9 @@ ideas = {
 			}
 		}
 		TXT_idea_citizen_revolutionaries = {
+
+			picture = FRA_scw_intervention_republicans_focus
+
 			allowed = {
 				always = no
 			}
@@ -650,6 +721,9 @@ ideas = {
 			}
 		}
 		TXT_idea_sovietschooling = {
+
+			picture = generic_army_war_college
+
 			allowed = {
 				always = no
 			}
@@ -666,6 +740,9 @@ ideas = {
 			}
 		}
 		TXT_idea_trotskyism = {
+
+			picture = fourth_international
+
 			allowed = {
 				always = no
 			}
@@ -682,6 +759,9 @@ ideas = {
 			}
 		}
 		TXT_idea_stalinism = {
+
+			picture = idea_hol_haven_of_tolerance
+
 			allowed = {
 				always = no
 			}
@@ -699,6 +779,9 @@ ideas = {
 			}
 		}
 		TXT_idea_expand_intel = {
+
+			picture = generic_spy_political
+
 			allowed = {
 				always = no
 			}
@@ -715,6 +798,9 @@ ideas = {
 			}
 		}
 		TXT_military_academies = {
+
+			picture = generic_army_war_college
+
       allowed = {
         always = no
       }
@@ -730,6 +816,9 @@ ideas = {
       }
     }
 		TXT_five_year_plan = {
+
+			picture = man_five_year_plan_industry
+
 			allowed = {
 				always = no
 			}
@@ -745,6 +834,9 @@ ideas = {
 			}
 		}
 		TXT_kill_dream = {
+
+			picture = eng_tackle_capitalism
+
 			allowed = {
 				always = no
 			}
@@ -760,6 +852,9 @@ ideas = {
 			}
 		}
 		TXT_idea_propaganda_targeting = {
+
+			picture = nkvd_2
+
 			allowed = {
 				always = no
 			}
@@ -775,6 +870,9 @@ ideas = {
 			}
 		}
 		TXT_destabilization_initiative = {
+
+			picture = FRA_scw_intervention_republicans_focus
+
 			allowed = {
 				always = no
 			}
@@ -790,6 +888,9 @@ ideas = {
 			}
 		}
 		TXT_foreign_intervention = {
+
+			picture = generic_volunteer_expedition_bonus
+
 			allowed = {
 				always = no
 			}
@@ -806,6 +907,9 @@ ideas = {
 			}
 		}
 		TXT_cheap_guns = {
+
+			picture = generic_infantry_equipment_manufacturer_2
+
 			allowed = {
 				always = no
 			}
@@ -823,6 +927,9 @@ ideas = {
 			}
 		}
 		TXT_stateperpetualwarfare = {
+
+			picture = generic_communist_army
+
 			allowed = {
 				always = no
 			}
@@ -839,6 +946,9 @@ ideas = {
 			}
 		}
 		TXT_homelessconscription = {
+
+			picture = generic_manpower_bonus
+
 			allowed = {
 				always = no
 			}
@@ -854,6 +964,9 @@ ideas = {
 			}
 		}
 		TXT_slackenedstandards = {
+
+			picture = chi_army_corruption2
+
 			allowed = {
 				always = no
 			}
@@ -868,7 +981,118 @@ ideas = {
 				conscription = 0.01
 			}
 		}
+		TXT_rebuildthenation = {
+
+			picture = idea_eng_spirit_of_the_industrial_revolution
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				industry_repair_factor = 0.2
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		TXT_agrarian_benefits = {
+
+			picture = gre_agricultural_communes
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.1
+				local_building_slots_factor = 0.10
+			}
+		}
+		TXT_upgrade_austin = {
+
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+		TXT_upgrade_houston = {
+
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+		TXT_free_healthcare = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				monthly_population = 0.10
+			}
+		}
+		TXT_egalitarianism = {
+
+			picture = generic_neutrality_drift_bonus
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 1.5
+			}
+		}
 		TXT_bomb_proof = {
+
+			picture = combined_bomber_offensive
+
 			allowed = {
 				always = no
 			}
@@ -884,6 +1108,9 @@ ideas = {
 			}
 		}
 		TXT_concentrated_production = {
+
+			picture = man_five_year_plan_industry
+
 			allowed = {
 				always = no
 			}
@@ -902,6 +1129,9 @@ ideas = {
 		}
 
 		TXT_westtraining = {
+
+			picture = idea_por_colonial_army
+
 			allowed = {
 				always = no
 			}
@@ -918,6 +1148,9 @@ ideas = {
 			}
 		}
 		TXT_easttraining = {
+
+			picture = idea_generic_the_london_naval_treaty
+
 			allowed = {
 				always = no
 			}
@@ -934,6 +1167,9 @@ ideas = {
 			}
 		}
 		TXT_northtraining = {
+
+			picture = idea_generic_license_production
+
 			allowed = {
 				always = no
 			}
@@ -950,6 +1186,9 @@ ideas = {
 			}
 		}
 		TXT_mma = {
+
+			picture = idea_generic_naval_manufacturer_2
+
 			allowed = {
 				always = no
 			}

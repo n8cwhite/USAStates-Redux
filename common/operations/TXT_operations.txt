@@ -3,7 +3,7 @@ TXT_revolution_NM = {
 	map_icon = GFX_operations_coup_government_map
 	name = TXT_revolution_NM
 	desc = TXT_revolution_NM_desc
-	days = 180
+	days = 95
 
 	allowed = {
 		original_tag = TXT
@@ -149,7 +149,7 @@ TXT_revolution_OK = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -295,7 +295,7 @@ TXT_revolution_AR = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -441,7 +441,7 @@ TXT_revolution_LA = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -587,7 +587,7 @@ TXT_revolution_AZ = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -733,7 +733,7 @@ TXT_revolution_UT = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -879,7 +879,7 @@ TXT_revolution_NV = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -1025,7 +1025,7 @@ TXT_revolution_CA = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -1171,7 +1171,7 @@ TXT_revolution_KS = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
@@ -1317,7 +1317,7 @@ TXT_revolution_NY = {
   map_icon = GFX_operations_coup_government_map
   name = TXT_revolution_NM
   desc = TXT_revolution_NM_desc
-  days = 180
+  days = 95
 
   allowed = {
     original_tag = TXT
