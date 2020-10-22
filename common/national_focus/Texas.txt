@@ -2666,7 +2666,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		offset = {
-			x = -10
+			x = -9
 			y = 0
 			trigger = {
 				NOT = {
@@ -2699,7 +2699,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -9
 			y = 0
 			trigger = {
 				NOT = {
@@ -2731,7 +2731,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		offset = {
-			x = -10
+			x = -8
 			y = 0
 			trigger = {
 				NOT = {
@@ -2758,7 +2758,7 @@ focus_tree = {
 		id = TXT_redistributewealth
 		icon = GFX_CAC_relieve_states
 		offset = {
-			x = -10
+			x = -8
 			y = 0
 			trigger = {
 				NOT = {
@@ -2788,7 +2788,7 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		offset = {
-			x = -10
+			x = -9
 			y = 0
 			trigger = {
 				NOT = {
@@ -2815,7 +2815,7 @@ focus_tree = {
 		id = TXT_counterrevolt
 		icon = GFX_Generic_Army_Focus_Red02
 		offset = {
-			x = -10
+			x = -9
 			y = 0
 			trigger = {
 				NOT = {
@@ -2873,16 +2873,16 @@ focus_tree = {
 							}
 						}
 			      TXT = {
+							set_politics = {
+			  				ruling_party = communism
+			  				elections_allowed = no
+			  			}
 							hidden_effect = {
 								load_oob = "TXT_fas_civil_war"
 				        set_equipment_fraction = 0.5
 				        set_stability = 0.19
 				        set_war_support = 0.78
 							}
-			        set_politics = {
-			  				ruling_party = communism
-			  				elections_allowed = no
-			  			}
 			      }
 					}
 				}
@@ -2899,7 +2899,7 @@ focus_tree = {
 			has_war = yes
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -2941,7 +2941,7 @@ focus_tree = {
 			has_war = yes
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -2998,7 +2998,7 @@ focus_tree = {
 			has_war = yes
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3041,7 +3041,7 @@ focus_tree = {
 			focus = TXT_redistributewealth
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3067,7 +3067,7 @@ focus_tree = {
 			focus = TXT_begin_reconfidence
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3092,7 +3092,7 @@ focus_tree = {
 			focus = TXT_improve_agriculture
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3117,7 +3117,7 @@ focus_tree = {
 			focus = TXT_improve_agriculture
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3148,7 +3148,7 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3176,7 +3176,7 @@ focus_tree = {
 			focus = TXT_begin_reconfidence
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3207,7 +3207,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3243,7 +3243,7 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3288,7 +3288,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3304,6 +3304,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 6
@@ -3322,7 +3323,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3338,6 +3339,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 6
@@ -3356,7 +3358,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3392,7 +3394,7 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3439,7 +3441,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3455,6 +3457,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 6
@@ -3473,7 +3476,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		offset = {
-			x = -10
+			x = -7
 			y = 0
 			trigger = {
 				NOT = {
@@ -3489,6 +3492,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
 					type = dockyard
 					level = 8
