@@ -5,11 +5,18 @@ state={
 		owner = BAJ
 		add_core_of = BAJ
 		buildings = {
+
 			infrastructure = 3
+		}
+		victory_points={
+			13395 15
+		}
+		victory_points={
+			13404 10
 		}
 	}
 	provinces={
-		1904 8119 12736 13395 13404 13419 
+		1904 8119 12736 13395 13404 13419
 	}
 	manpower=102453
 	buildings_max_level_factor=1.000

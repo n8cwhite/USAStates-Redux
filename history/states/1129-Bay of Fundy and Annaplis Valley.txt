@@ -8,6 +8,18 @@ state={
 			infrastructure = 6
 			industrial_complex = 2
 		}
+		#Truro
+		victory_points = {
+			14126 10
+		}
+		#Kentville
+		victory_points = {
+			14080 5
+		}
+		#Wolfville
+		victory_points = {
+			14086 5
+		}
 	}
 	provinces={
 		7304 14068 14076 14080 14086 14097 14119 14126

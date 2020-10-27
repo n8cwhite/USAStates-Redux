@@ -6,7 +6,6 @@ state={
 		owner = QBC
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			15191 = {
 				naval_base = 3
 			}

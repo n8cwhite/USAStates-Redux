@@ -8,9 +8,17 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		#Medicine Hat
+		victory_points = {
+			14545 10
+		}
+		#Brooks
+		victory_points = {
+			14664 5
+		}
 	}
 	provinces={
-		10684 14545 14601 14602 14632 14664 14675 14717 14732 
+		10684 14545 14601 14602 14632 14664 14675 14717 14732
 	}
 	manpower=91254
 	buildings_max_level_factor=1.000

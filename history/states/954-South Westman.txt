@@ -9,9 +9,13 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 		}
+		#Brandon
+		victory_points = {
+			14454 10
+		}
 	}
 	provinces={
-		1848 12145 14457 14458 14459 14484 14493 14494 14509 14533 14547 
+		1848 12145 14457 14458 14459 14484 14493 14494 14509 14533 14547
 	}
 	manpower=82014
 	buildings_max_level_factor=1.000

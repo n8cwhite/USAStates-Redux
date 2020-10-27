@@ -3,10 +3,10 @@ state= {
 	name="STATE_315"
 	manpower = 3607919
 	resources={
-		steel=3 # was: 4
-		chromium=90 # was: 160
+		steel=13
+		chromium=40 # was: 160
 	}
-	
+
 	state_category = town
 
 	history= {
@@ -16,16 +16,13 @@ state= {
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
-			7622 = {
-				naval_base = 3
-			}
 			1550 = {
 				naval_base = 1
 			}
 		}
 		add_core_of = CUB
 		victory_points = {
-			7622 5 
+			7622 5
 		}
 		victory_points = {
 			7590 1

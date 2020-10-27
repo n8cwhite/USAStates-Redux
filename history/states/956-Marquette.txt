@@ -8,9 +8,13 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 		}
+		#Portage la Prairie
+		victory_points = {
+			14564 10
+		}
 	}
 	provinces={
-		14559 14563 14564 14579 14589 14618 14625 
+		14559 14563 14564 14579 14589 14618 14625
 	}
 	manpower=45210
 	buildings_max_level_factor=1.000

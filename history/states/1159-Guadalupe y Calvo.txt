@@ -9,7 +9,17 @@ state={
 		}
 		add_core_of = CIA
 		add_core_of = MEX
+
+		victory_points = {
+			10916 10
+		}
+
+		victory_points = {
+			13412 5
+		}
+
 	}
+
 	provinces={
 		4898 10916 13410 13412
 	}

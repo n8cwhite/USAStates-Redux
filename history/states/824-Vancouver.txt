@@ -12,6 +12,26 @@ state={
 				naval_base = 8
 			}
 		}
+		#Vancouver
+		victory_points = {
+			14441 25
+		}
+		#Burnaby
+		victory_points = {
+			14442 5
+		}
+		#Surrey
+		victory_points = {
+			4428 5
+		}
+		#Coquitlam
+		victory_points = {
+			14474 5
+		}
+		#Abbotsford
+		victory_points = {
+			14443 5
+		}
 	}
 	provinces={
 		4428 14441 14442 14443 14474

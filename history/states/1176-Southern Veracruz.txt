@@ -12,9 +12,18 @@ state={
 			dockyard = 1
 			industrial_complex = 1
 		}
+
+		victory_points = {
+			2021 20
+	}
+
+	victory_points = {
+		13340 5
+}
+
 	}
 	provinces={
-		2021 10889 13340 
+		2021 10889 13340
 	}
 	manpower=981030
 	buildings_max_level_factor=1.000

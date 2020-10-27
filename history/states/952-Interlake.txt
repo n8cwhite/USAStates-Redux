@@ -9,9 +9,13 @@ state={
 			industrial_complex = 3
 			arms_factory = 2
 		}
+		#Peguis
+		victory_points = {
+			14713 5
+		}
 	}
 	provinces={
-		5119 14672 14709 14713 14758 14781 14805 14842 14892 
+		5119 14672 14709 14713 14758 14781 14805 14842 14892
 	}
 	manpower=102541
 	buildings_max_level_factor=1.000

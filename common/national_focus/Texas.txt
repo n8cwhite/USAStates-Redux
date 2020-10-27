@@ -2230,7 +2230,10 @@ focus_tree = {
 				target = TXT
 				decision = ban_democratic_party
 			}
+			add_political_power = 200
+			custom_effect_tooltip = TXT_ban_opposition_tt
 			remove_ideas = TXT_democratic_threat_4
+			remove_ideas = TXT_idea_low_government_support
 		}
 	}
 
@@ -3258,23 +3261,8 @@ focus_tree = {
 		y = 13
 
 		completion_reward = {
-			custom_effect_tooltip = TXT_upgrade_austin_tt
-			hidden_effect = {
-				375 = {
-					set_state_category = megalopolis
-					add_building_construction = {
-						type = naval_base
-						location = 10337
-						level = 10
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = naval_base
-						location = 13451
-						level = 10
-						instant_build = yes
-					}
-				}
+			375 = {
+				set_state_category = megalopolis
 			}
 		}
 	}
@@ -3304,6 +3292,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 6
@@ -3338,6 +3327,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
 					level = 6
@@ -3407,11 +3397,10 @@ focus_tree = {
 		y = 13
 
 		completion_reward = {
-			custom_effect_tooltip = TXT_upgrade_houston_tt
+			894 = {
+				set_state_category = megalopolis
+			}
 			hidden_effect = {
-				894 = {
-					set_state_category = megalopolis
-				}
 				894 = {
 					add_building_construction = {
 						type = naval_base
@@ -3455,6 +3444,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
 					level = 6
@@ -3489,6 +3479,7 @@ focus_tree = {
 
 		completion_reward = {
 			375 = {
+				add_extra_state_shared_building_slots = 8
 				add_building_construction = {
 					type = dockyard
 					level = 8
@@ -3504,15 +3495,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		cost = 10
@@ -3538,15 +3520,6 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 40
@@ -3575,15 +3548,6 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 40
@@ -3662,15 +3626,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		x = 41
 		y = 3
@@ -3729,15 +3684,6 @@ focus_tree = {
 				has_government = communism
 			}
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		cost = 10
 
@@ -3769,15 +3715,6 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 39
@@ -3830,15 +3767,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		cost = 10
 
@@ -3868,15 +3796,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		cost = 10
 
@@ -3904,15 +3823,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		x = 46
 		y = 1
@@ -3938,15 +3848,6 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 46
@@ -3986,15 +3887,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		cost = 10
 
@@ -4026,15 +3918,6 @@ focus_tree = {
 		}
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 44
@@ -4070,15 +3953,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
 
 		cost = 10
 
@@ -4101,15 +3975,6 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 			FOCUS_FILTER_RESEARCH
-		}
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		cost = 10
@@ -4161,16 +4026,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
-
 		x = 48
 		y = 4
 
@@ -4214,16 +4069,6 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-		}
-
 		x = 48
 		y = 5
 
@@ -4243,16 +4088,6 @@ focus_tree = {
 
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
-		}
-
-		offset = {
-			x = -10
-			y = 0
-			trigger = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
 		}
 
 		x = 46

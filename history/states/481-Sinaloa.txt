@@ -13,17 +13,15 @@ state={
 
 		}
 		add_core_of = SIN
+
 		victory_points = {
-			7921 10 
-		}
-		victory_points = {
-			10895 10 
+			10895 15
 		}
 
 	}
 
 	provinces={
-		4946 7921 8057 10895 13396 
+		4946 7921 8057 10895 13396
 	}
 	manpower=2255094
 	buildings_max_level_factor=1.000

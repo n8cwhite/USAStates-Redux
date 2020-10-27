@@ -10,7 +10,25 @@ state={
 			air_base = 8
 		}
 		victory_points = {
-			14240 20
+			14145 20
+		}
+		victory_points = {
+			4345 5
+		}
+		victory_points = {
+			14153 5
+		}
+		victory_points = {
+			14146 10
+		}
+		victory_points = {
+			14115 5
+		}
+		victory_points = {
+			14156 5
+		}
+		victory_points = {
+			14181 10
 		}
 		add_core_of = QBC
 	}

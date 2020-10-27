@@ -9,6 +9,9 @@ state={
 			arms_factory = 1
 			dockyard = 1
 		}
+		victory_points = {
+			14147 15
+		}
 	}
 	provinces={
 		4430 14147 14159 14196

@@ -135,7 +135,7 @@ units = {
 	### Air oob
 	air_wings = {
 		### I. Airwing -- San Fran ###
-		968 = {
+		801 = {
 			# Jagdgeschwader 232
 			fighter_equipment_0 =  {		# He 51
 				owner = "USA"

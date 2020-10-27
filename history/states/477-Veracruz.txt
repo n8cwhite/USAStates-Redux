@@ -17,10 +17,27 @@ state={
 			}
 		}
 		add_core_of = VEC
+
+		victory_points = {
+			12810 25
+	}
+
+	victory_points = {
+		10732 20
+}
+
+	victory_points = {
+	13370 15
+}
+
+victory_points = {
+	8079 5
+}
+
 	}
 
 	provinces={
-		8079 10732 12810 13370 13384 
+		8079 10732 12810 13370 13384
 	}
 	manpower=1251460
 	buildings_max_level_factor=1.000

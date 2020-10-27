@@ -17,8 +17,23 @@
   VICTORY_POINTS_13499:0 "Daphne"
 ##Alaska
   VICTORY_POINTS_15341:0 "Juneau"
+  VICTORY_POINTS_13203:0 "Hoonah"
+  VICTORY_POINTS_10707:0 "Yakutat"
+  VICTORY_POINTS_13091:0 "Anchorage"
+  VICTORY_POINTS_4833:0 "Homer"
+  VICTORY_POINTS_15714:0 "Knik-Fairview"
+  VICTORY_POINTS_15630:0 "McCarthy"
 ##Alberta
   VICTORY_POINTS_14896:0 "Edmonton"
+  VICTORY_POINTS_14779:0 "Calgary"
+  VICTORY_POINTS_14505:0 "Lethbridge"
+  VICTORY_POINTS_14545:0 "Medicine Hat"
+  VICTORY_POINTS_14664:0 "Brooks"
+  VICTORY_POINTS_14779:0 "Calgary"
+  VICTORY_POINTS_14847:0 "Drumheller"
+  VICTORY_POINTS_4765:0 "Canmore"
+  VICTORY_POINTS_14996:0 "Red Deer"
+  VICTORY_POINTS_15129:0 "Edmonton"
 ##Arkansas
   VICTORY_POINTS_13623:0 "Little Rock"
   VICTORY_POINTS_13631:0 "North Little Rock"
@@ -52,8 +67,28 @@
   VICTORY_POINTS_13676:0 "Grand Canyon Village"
   VICTORY_POINTS_13685:0 "Kayenta"
   VICTORY_POINTS_11814:0 "Kingman"
+  ##Baja California
+  VICTORY_POINTS_13395:0 "La Paz"
+  VICTORY_POINTS_13404:0 "Loreto"
+  VICTORY_POINTS_7964:0 "El Rosarito"
+  VICTORY_POINTS_13215:0 "Mexicali"
 ##British Columbia
+  #Victoria
   VICTORY_POINTS_14387:0 "Victoria"
+  VICTORY_POINTS_14376:0 "Oak Bay"
+  VICTORY_POINTS_14397:0 "Saanich"
+  VICTORY_POINTS_14383:0 "Esquimalt"
+  #Vancouver
+  VICTORY_POINTS_14441:0 "Vancouver"
+  VICTORY_POINTS_14442:0 "Burnaby"
+  VICTORY_POINTS_4428:0 "Surrey"
+  VICTORY_POINTS_14474:0 "Coquitlam"
+  VICTORY_POINTS_14443:0 "Abbotsford"
+#Not Thick Cities
+  VICTORY_POINTS_14871:0 "Prince George"
+  VICTORY_POINTS_14518:0 "Kelowna"
+  VICTORY_POINTS_14593:0 "Vernon"
+  VICTORY_POINTS_4343:0 "Kamloops"
 ##California
 #Sacramento
   VICTORY_POINTS_13760:0 "Sacramento"
@@ -88,6 +123,32 @@
   VICTORY_POINTS_1601:0 "South Lake Tahoe"
   VICTORY_POINTS_610:0 "McKinleyville"
   VICTORY_POINTS_3644:0 "Crescent City"
+##Chiapas
+  VICTORY_POINTS_13338:0 "Tuxtla Gutiérrez"
+  VICTORY_POINTS_13346:0 "Villahermosa"
+  VICTORY_POINTS_12753:0 "Tapachula"
+  VICTORY_POINTS_13333:0 "Arriaga"
+##Chihuahua
+#Chihuahua
+  VICTORY_POINTS_13432:0 "Chihuahua"
+  VICTORY_POINTS_13423:0 "Delicias"
+  VICTORY_POINTS_13415:0 "Camargo"
+  VICTORY_POINTS_13454:0 "Nuevo Casas Grandes Municipality"
+#Guadalupe y Calvo
+  VICTORY_POINTS_10916:0 "Parral"
+  VICTORY_POINTS_13412:0 "Creel"
+##Coahuila
+#Parras
+  VICTORY_POINTS_10738:0 "Zacatecas"
+  VICTORY_POINTS_13400:0 "Fresnillo"
+#Coahuila
+  VICTORY_POINTS_10800:0 "Torreón"
+  VICTORY_POINTS_10746:0 "Saltillo"
+  VICTORY_POINTS_13418:0 "Monclova"
+#Rio Grande Valley
+  VICTORY_POINTS_2060:0 "Monterrey"
+#Sierra del Burro
+  VICTORY_POINTS_13434:0 "Piedras Negras"
 ##Connecticut
 #Hartford
   VICTORY_POINTS_13926:0 "Hartford"
@@ -158,6 +219,12 @@
   VICTORY_POINTS_13582:0 "Decatur"
   VICTORY_POINTS_13584:0 "Smyrna"
   VICTORY_POINTS_13586:0 "Sandy Springs"
+##Guerrero
+  VICTORY_POINTS_13365:0 "Uruapan"
+  VICTORY_POINTS_8032:0 "Lázaro Cárdenas"
+  VICTORY_POINTS_5066:0 "Zihuatanejo"
+  VICTORY_POINTS_10832:0 "Chilpancingo"
+  VICTORY_POINTS_13341:0 "Acapulco"
 ##Idaho
   VICTORY_POINTS_14004:0 "Boise"
   VICTORY_POINTS_14019:0 "Caldwell"
@@ -341,8 +408,17 @@
   VICTORY_POINTS_13775:0 "Ely"
 ##Labrador
   VICTORY_POINTS_14904:0 "Labrador City"
+  VICTORY_POINTS_12503:0 "Happy Valley-Goose Bay"
+  VICTORY_POINTS_14940:0 "Cartwright"
+  VICTORY_POINTS_15019:0 "Rigolet"
+  VICTORY_POINTS_1426:0 "Hopedale"
 ##Manitoba
-  VICTORY_POINTS_4872:0 "Winnipeg"
+  VICTORY_POINTS_14569:0 "Winnipeg"
+  VICTORY_POINTS_14564:0 "Portage La Prairie"
+  VICTORY_POINTS_14454:0 "Brandon"
+  VICTORY_POINTS_4872:0 "Selkirk"
+  VICTORY_POINTS_14713:0 "Peguis"
+  VICTORY_POINTS_14696:0 "Dauphin"
 ##Massachusetts
 #Boston
   VICTORY_POINTS_13961:0 "Boston"
@@ -428,6 +504,12 @@
   VICTORY_POINTS_10593:0 "Chinook"
   VICTORY_POINTS_10706:0 "Sidney"
   VICTORY_POINTS_14223:0 "Lewistown"
+##Nayarit and Jalisco
+  VICTORY_POINTS_13089:0 "Guadalajara"
+  VICTORY_POINTS_12746:0 "Puerto Vallarta"
+  VICTORY_POINTS_13380:0 "Tepic"
+  VICTORY_POINTS_10172:0 "Aguascalientes"
+  VICTORY_POINTS_13364:0 "Autlán"
 ##Nebraska
   VICTORY_POINTS_13880:0 "Lincoln"
   VICTORY_POINTS_13871:0 "Rockeby"
@@ -450,9 +532,24 @@
   VICTORY_POINTS_13895:0 "Ogallala"
   VICTORY_POINTS_4760:0 "Sidney"
 ##Newfoundland
-  VICTORY_POINTS_14282:0 "St. Johns"
+  VICTORY_POINTS_14282:0 "St. John's"
+  VICTORY_POINTS_14422:0 "Corner Brook"
+  VICTORY_POINTS_14381:0 "Stephenville"
+  VICTORY_POINTS_7788:0 "Channel-Port auz Basques"
+  VICTORY_POINTS_14504:0 "Rocky Harbour"
+  VICTORY_POINTS_14440:0 "Deer Lake"
+  VICTORY_POINTS_14406:0 "Lewisporte"
+  VICTORY_POINTS_14386:0 "Gander"
+  VICTORY_POINTS_14338:0 "Clarenville"
+  VICTORY_POINTS_14280:0 "Conception Bay South"
+
 ##New Brunswick
   VICTORY_POINTS_14166:0 "Fredericton"
+  VICTORY_POINTS_14105:0 "Saint John"
+  VICTORY_POINTS_14158:0 "Oromocto"
+  VICTORY_POINTS_14176:0 "Moncton"
+  VICTORY_POINTS_14295:0 "Edmundston"
+  VICTORY_POINTS_14285:0 "Tracadie-Sheila"
 ##New Hampshire
 #Concord
   VICTORY_POINTS_13988:0 "Manchester"
@@ -500,6 +597,7 @@
   VICTORY_POINTS_11722:0 "Saratoga Springs"
   VICTORY_POINTS_3747:0 "Syracuse"
   VICTORY_POINTS_3733:0 "Rochester"
+  VICTORY_POINTS_6778:0 "Watertown"
   VICTORY_POINTS_11654:0 "Buffalo"
   VICTORY_POINTS_6788:0 "Watertown"
 #New York City
@@ -532,6 +630,11 @@
   VICTORY_POINTS_13637:0 "Washington Heights"
 ##Northwest Territories
   VICTORY_POINTS_15806:0 "Yellowknife"
+  VICTORY_POINTS_15712:0 "Fort Providence"
+  VICTORY_POINTS_7696:0 "Behchokǫ"
+  VICTORY_POINTS_15588:0 "Fort Smith"
+  VICTORY_POINTS_15619:0 "Hay River"
+  VICTORY_POINTS_155711:0 "Fort Simpson"
 ##North Dakota
   VICTORY_POINTS_14224:0 "Bismarck"
   VICTORY_POINTS_14347:0 "Williston"
@@ -551,6 +654,24 @@
   VICTORY_POINTS_14258:0 "North River"
 ##Nunavut
   VICTORY_POINTS_7813:0 "Iqaluit"
+  VICTORY_POINTS_3691:0 "Cape Dorset"
+  VICTORY_POINTS_10721:0 "Rankin Inlet"
+  VICTORY_POINTS_15733:0 "Arviat"
+  VICTORY_POINTS_15863:0 "Baker Lake"
+##Nova Scotia
+  VICTORY_POINTS_14147:0 "Sydney"
+  VICTORY_POINTS_14018:0 "Yarmouth"
+  VICTORY_POINTS_14126:0 "Truro"
+  VICTORY_POINTS_14130:0 "New Glasgow"
+  VICTORY_POINTS_14120:0 "Antigonish"
+  VICTORY_POINTS_14080:0 "Kentville"
+  VICTORY_POINTS_14086:0 "Wolfville"
+  VICTORY_POINTS_14047:0 "Bridgewater"
+  VICTORY_POINTS_14142:0 "Amherst"
+##Oaxaca
+  VICTORY_POINTS_10773:0 "Oaxaca"
+  VICTORY_POINTS_8236:0 "Salina Cruz"
+  VICTORY_POINTS_13337:0 "Puerto Escondido"
 ##Ohio
   VICTORY_POINTS_13925:0 "Toledo"
   VICTORY_POINTS_3685:0 "Sandusky"
@@ -563,9 +684,21 @@
   VICTORY_POINTS_13862:0 "Westerville"
   VICTORY_POINTS_13854:0 "Gahanna"
   VICTORY_POINTS_13843:0 "Grove City"
-
 ##Ontario
   VICTORY_POINTS_14024:0 "Toronto"
+  VICTORY_POINTS_14015:0 "Mississauga"
+  VICTORY_POINTS_14027:0 "Brampton"
+  VICTORY_POINTS_14034:0 "Vaughan"
+  VICTORY_POINTS_14044:0 "Richmond Hill"
+  VICTORY_POINTS_14038:0 "Markham"
+  VICTORY_POINTS_3775:0 "Scarborough"
+#Not Thick Cities
+  VICTORY_POINTS_3763:0 "Hamilton"
+  VICTORY_POINTS_722:0 "London"
+  VICTORY_POINTS_3605:0 "Kingston"
+  VICTORY_POINTS_6662:0 "Huntsville"
+  VICTORY_POINTS_9667:0 "Catham Kent"
+  VICTORY_POINTS_14203:0 "Sudbury"
 ##Oklahoma
 #Oklahoma City
   VICTORY_POINTS_13641:0 "Oklahoma City"
@@ -581,6 +714,16 @@
   VICTORY_POINTS_13596:0 "Lawton"
   VICTORY_POINTS_12624:0 "Guymon"
   VICTORY_POINTS_7762:0 "Woodward"
+##Old Mexican Republic
+  VICTORY_POINTS_1965:0 "Mexico City"
+  VICTORY_POINTS_13373:0 "Cuautitlán Izcalli"
+  VICTORY_POINTS_13366:0 "Toluca"
+  VICTORY_POINTS_13357:0 "Cuernavaca"
+  VICTORY_POINTS_13385:0 "León"
+  VICTORY_POINTS_13381:0 "Santiago de Querétaro"
+  VICTORY_POINTS_13377:0 "San Juan del Río"
+  VICTORY_POINTS_13369:0 "Morelia"
+  VICTORY_POINTS_2008:0 "Irapuato"
 ##Oregon
 #Portland
   VICTORY_POINTS_14113:0 "Portland"
@@ -602,16 +745,71 @@
 ##Pennsylvania
   VICTORY_POINTS_11785:0 "Harrisburg"
   VICTORY_POINTS_3687:0 "Erie"
+  VICTORY_POINTS_11799:0 "Allentown"
+  VICTORY_POINTS_9820:0 "Scranton"
+  VICTORY_POINTS_822:0 "York"
 #Philadelphia
   VICTORY_POINTS_13848:0 "Philadelphia"
+  VICTORY_POINTS_13847:0 "Darby"
+  VICTORY_POINTS_13861:0 "Bala Cynwyd"
+  VICTORY_POINTS_6845:0 "Kensington"
+  VICTORY_POINTS_13859:0 "Frankford"
 #Prince Edward's Island
   VICTORY_POINTS_14185:0 "Charlottetown"
+  VICTORY_POINTS_14194:0 "Kensington"
+  VICTORY_POINTS_14183:0 "Summerside"
 ##Quebec
-  VICTORY_POINTS_14240:0 "Quebec"
+  VICTORY_POINTS_14240:0 "Québec City"
+  VICTORY_POINTS_14221:0 "Levis"
+  VICTORY_POINTS_14239:0 "L'Ancienne-Lorette"
+  VICTORY_POINTS_14259:0 "Beauport"
+##Montreal
+  VICTORY_POINTS_14145:0 "Montréal"
+  VICTORY_POINTS_14153:0 "Boucherville"
+  VICTORY_POINTS_14146:0 "Longueuil"
+  VICTORY_POINTS_14115:0 "Brossard"
+  VICTORY_POINTS_14154:0 "Sainte-Julie"
+  VICTORY_POINTS_14156:0 "Montréal-Est"
+  VICTORY_POINTS_14181:0 "Repentigny"
+#Not Thick Cities
+  VICTORY_POINTS_14123:0 "Sherbrooke"
+  VICTORY_POINTS_14177:0 "Victoriaville"
+  VICTORY_POINTS_14175:0 "Trois-Rivières"
+  VICTORY_POINTS_1356:0 "Saguenay"
 ##Rhode Island
   VICTORY_POINTS_11830:0 "Providence"
-##Sasketchewan
-  VICTORY_POINTS_12663:0 "Regina"
+  ##Saskatchewan
+  VICTORY_POINTS_14645:0 "Regina"
+  VICTORY_POINTS_14455:0 "Estevan"
+  VICTORY_POINTS_14533:0 "Weyburn"
+  VICTORY_POINTS_14653:0 "Moose Jaw"
+  VICTORY_POINTS_14644:0 "Swift Current"
+  VICTORY_POINTS_14786:0 "Kindersley"
+  VICTORY_POINTS_14733:0 "Yorkton"
+  VICTORY_POINTS_14803:0 "Saskatoon"
+  VICTORY_POINTS_14890:0 "North Battleford"
+  VICTORY_POINTS_14791:0 "Prince Albert"
+
+##Sinaloa
+#Los Valles
+  VICTORY_POINTS_13399:0 "Durango"
+#Las Quebradas
+  VICTORY_POINTS_13401:0 "Culiacán"
+  VICTORY_POINTS_13403:0 "Guamúchil"
+  VICTORY_POINTS_13405:0 "Los Mochis"
+##Sonora
+#Gasden Area
+  VICTORY_POINTS_13473:0 "Nogales"
+  VICTORY_POINTS_13491:0 "Caborca"
+#Agua Prieta
+  VICTORY_POINTS_5071:0 "Agua Prieta"
+#Sonora
+  VICTORY_POINTS_10765:0 "Hermosillo"
+  VICTORY_POINTS_10848:0 "Bahia Kino"
+  VICTORY_POINTS_13426:0 "Guaymas"
+#Lower Sonora
+  VICTORY_POINTS_13414:0 "Ciudad Obregón"
+  VICTORY_POINTS_4977:0 "Navojoa"
 ##South Carolina
   VICTORY_POINTS_7134:0 "Florence"
   VICTORY_POINTS_4491:0 "Rock Hill"
@@ -649,6 +847,12 @@
   VICTORY_POINTS_14043:0 "Ellsworth Air Force Base"
   VICTORY_POINTS_14049:0 "Ashland Heights"
   VICTORY_POINTS_14048:0 "Black Hawk"
+##Tamaulipas
+  VICTORY_POINTS_5015:0 "Reynosa"
+  VICTORY_POINTS_5021:0 "Tampico"
+  VICTORY_POINTS_4956:0 "Ciudad Valles"
+  VICTORY_POINTS_1952:0 "San Luis Potosí"
+  VICTORY_POINTS_13398:0 "Ciudad Victoria"
 ##Tennessee
   VICTORY_POINTS_12670:0 "Clarksville"
   VICTORY_POINTS_7797:0 "Memphis"
@@ -678,6 +882,15 @@
   VICTORY_POINTS_13757:0 "Moab"
   VICTORY_POINTS_13800:0 "Price"
   VICTORY_POINTS_10582:0 "Logan"
+##Veracruz
+  VICTORY_POINTS_13360:0 "Puebla"
+  VICTORY_POINTS_8089:0 "Tehuacán"
+  VICTORY_POINTS_8079:0 "Naranjos"
+  VICTORY_POINTS_13370:0 "Poza Rica"
+  VICTORY_POINTS_10732:0 "Xalapa"
+  VICTORY_POINTS_12810:0 "Heroica Veracruz"
+  VICTORY_POINTS_2021:0 "Coatzacoalcos"
+  VICTORY_POINTS_13340:0 "Acayucan"
 ##Virginia
  #Richmond
   VICTORY_POINTS_13746:0 "Richmond"
@@ -759,5 +972,20 @@
   VICTORY_POINTS_7888:0 "Evanston"
   VICTORY_POINTS_1815:0 "Riverton"
   VICTORY_POINTS_13984:0 "Jackson"
+##Yucatan
+  VICTORY_POINTS_13378:0 "Mérida"
+  VICTORY_POINTS_12715:0 "Cancún"
+  VICTORY_POINTS_13368:0 "Chichén-Itzá"
+  VICTORY_POINTS_4904:0 "Campeche"
 ##Yukon
   VICTORY_POINTS_15617:0 "Whitehorse"
+  VICTORY_POINTS_15569:0 "Carcross"
+  VICTORY_POINTS_15574:0 "Mt. Lorne"
+  VICTORY_POINTS_15609:0 "Ibex Valley"
+  VICTORY_POINTS_15613:0 "Haines Junction"
+  VICTORY_POINTS_15835:0 "Pelly Crossing"
+  VICTORY_POINTS_15767:0 "Carmacks"
+  VICTORY_POINTS_15782:0 "Faro"
+  VICTORY_POINTS_7891:0 "Watson Lake"
+##Shhh
+  VICTORY_POINTS_13080:0 "Castle Gabbard"

@@ -12,23 +12,17 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 1
-
 		}
+		#Lethbridge
 		victory_points = {
-			4765 7 
-		}
-		victory_points = {
-			1262 4 
-		}
-		victory_points = {
-			7718 4 
+			14505 10
 		}
 		add_core_of = ABA
 
 	}
 
 	provinces={
-		1262 7718 14467 14505 14513 14551 14552 14567 
+		1262 7718 14467 14505 14513 14551 14552 14567
 	}
 	manpower=690800
 	buildings_max_level_factor=1.000

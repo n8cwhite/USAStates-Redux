@@ -11,8 +11,21 @@ state={
 				naval_base = 7
 			}
 		}
+		#Victoria
 		victory_points = {
 			14387 20
+		}
+		#Oak Bay
+		victory_points = {
+			14376 5
+		}
+		#Saanich
+		victory_points = {
+			14397 10
+		}
+		#Esquimalt
+		victory_points = {
+			14383 5
 		}
 	}
 	provinces={

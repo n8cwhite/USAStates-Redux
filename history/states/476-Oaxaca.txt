@@ -16,13 +16,21 @@ state={
 		add_core_of = OAX
 		add_core_of = MEX
 		victory_points = {
-			8236 7 
+			10773 20
+		}
+
+		victory_points = {
+			8236 10
+		}
+
+		victory_points = {
+			13337 5 
 		}
 
 	}
 
 	provinces={
-		8236 10773 12712 13337 13343 
+		8236 10773 12712 13337 13343
 	}
 	manpower=127331
 	buildings_max_level_factor=1.000

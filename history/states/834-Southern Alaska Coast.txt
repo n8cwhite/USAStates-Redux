@@ -11,8 +11,17 @@ state={
 				naval_base = 6
 			}
 		}
+		#Juneau
 		victory_points = {
 			15341 15
+		}
+		#Hoonah
+		victory_points = {
+			13203 10
+		}
+		#Yakutat
+		victory_points = {
+			10707 5
 		}
 	}
 	provinces={

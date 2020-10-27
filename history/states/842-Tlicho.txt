@@ -7,10 +7,14 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		#Fort Smith
+		victory_points = {
+			15588 10
+		}
 	}
 
 	provinces={
-		2407 13075 15588 15589 15590 15591 15623 15634 15639 15644 15680 15715 
+		2407 13075 15588 15589 15590 15591 15623 15634 15639 15644 15680 15715
 	}
 	manpower=20142
 	buildings_max_level_factor=1.000

@@ -115,18 +115,18 @@ units = {
 	 task_force = {
 	 name = "Capital Division"
 	 location = 788 # Norfolk
-				ship = { name = "USS Borie" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = VAV version_name = "New Mexico Class" } } }
-				ship = { name = "USS Breckinridge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Barney" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Blakley" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Franklin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-				ship = { name = "USS Deane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-				ship = { name = "USS Borie" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = VAV version_name = "New Mexico Class" } } }
-				ship = { name = "USS Breckinridge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Barney" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Blakley" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
-				ship = { name = "USS Franklin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-				ship = { name = "USS Deane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+				ship = { name = "VAV Borie" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = VAV version_name = "New Mexico Class" } } }
+				ship = { name = "VAV Breckinridge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Barney" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Blakley" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Franklin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+				ship = { name = "VAV Deane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+				ship = { name = "VAV Borie" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = VAV version_name = "New Mexico Class" } } }
+				ship = { name = "VAV Breckinridge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Barney" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Blakley" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = VAV version_name = "Portland Class" } } }
+				ship = { name = "VAV Franklin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+				ship = { name = "VAV Deane" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
 				}
 			}
 
@@ -137,16 +137,16 @@ units = {
 	 task_force = {
 	 name = "Sea Wolf Division"
 	 location = 788 # Norfolk
-		ship = { name = "USS Benfold" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Boise" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Richard" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Boxer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Hill" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Vinson" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Chafee" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Hampton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Champion" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
-		ship = { name = "USS Antietam" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Benfold" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Boise" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Richard" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Boxer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Hill" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Vinson" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Chafee" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Hampton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Champion" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
+		ship = { name = "VAV Antietam" definition = submarine equipment = { submarine_1 = { amount = 1 owner = VAV } } }
 			}
 		}
 	}

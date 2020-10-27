@@ -10,30 +10,18 @@ state={
 			industrial_complex = 1
 			arms_factory = 1
 			air_base = 3
-			7361 = {
+			14018 = {
 				naval_base = 4
-
 			}
-
 		}
 		add_core_of = NSN
 		victory_points = {
-			7361 15
+			14018 10
 		}
-		victory_points = {
-			4430 7
-		}
-		victory_points = {
-			10244 8
-		}
-		victory_points = {
-			1354 4
-		}
-
 	}
 
 	provinces={
-		1354 4623 14012 14018 14029 14056 
+		1354 4623 14012 14018 14029 14056
 	}
 	manpower=990912
 	buildings_max_level_factor=1.000

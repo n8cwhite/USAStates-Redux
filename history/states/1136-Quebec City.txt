@@ -11,7 +11,15 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = QBC
+		victory_points = {
+			14240 25
+		}
+		victory_points = {
+			14239 5
+		}
+		victory_points = {
+			14259 5
+		}
 	}
 	provinces={
 		14221 14226 14227 14228 14239 14240 14259

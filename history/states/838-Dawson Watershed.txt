@@ -9,12 +9,29 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		#Whitehorse
 		victory_points = {
-			15617 15
+			15617 25
+		}
+		#Carcross
+		victory_points = {
+			15569 5
+		}
+		#Mt. Lorne
+		victory_points = {
+			15574 10
+		}
+		#Ibex Valley
+		victory_points = {
+			15609 5
+		}
+		#Haines Junction
+		victory_points = {
+			15613 10
 		}
 	}
 	provinces={
-		15569 15574 15609 15613 15617 15637 15690 15702 15710 
+		15569 15574 15609 15613 15617 15637 15690 15702 15710
 	}
 	manpower=90120
 	buildings_max_level_factor=1.000

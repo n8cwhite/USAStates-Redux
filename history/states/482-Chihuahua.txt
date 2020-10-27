@@ -12,13 +12,25 @@ state={
 		add_core_of = CIA
 		add_core_of = MEX
 		victory_points = {
-			10830 15 
+			13432 15
+		}
+
+		victory_points = {
+			13423 5
+		}
+
+		victory_points = {
+			13415 10
+		}
+
+		victory_points = {
+			13454 10
 		}
 
 	}
 
 	provinces={
-		7935 10809 10830 12745 12827 13415 13422 13423 13427 13428 13432 13454 13481 13494 
+		7935 10809 10830 12745 12827 13415 13422 13423 13427 13428 13432 13454 13481 13494
 	}
 	manpower=1220751
 	buildings_max_level_factor=1.000

@@ -87,8 +87,8 @@ units = {
     naval_base = 1562
     task_force = {
       location = 1562 # San Diego
-      ship = { name = "NCS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
-      ship = { name = "NCS Astoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+      ship = { name = "CAS Bakersfield" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+      ship = { name = "CAS Bakersfield" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
       ship = { name = "NCS Minneapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
       ship = { name = "NCS San Francisco" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
     }

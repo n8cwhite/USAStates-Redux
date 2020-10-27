@@ -6,10 +6,20 @@ state={
 		add_core_of = COU
 		buildings = {
 			infrastructure = 2
+
 		}
+
+		victory_points = {
+			10738 15
+		}
+
+		victory_points = {
+			13400 10
+		}
+
 	}
 	provinces={
-		10738 13400 
+		10738 13400
 	}
 	manpower=24011
 	buildings_max_level_factor=1.000

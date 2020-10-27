@@ -21,8 +21,25 @@ state={
 			}
 		}
 		add_core_of = PAP
+		#Philadelphia
 		victory_points = {
 			13848 25
+		}
+		#Darby
+		victory_points = {
+			13847 5
+		}
+		#Bala Cynwyd
+		victory_points = {
+			13861 5
+		}
+		#Kensington
+		victory_points = {
+			6845 5
+		}
+		#Frankford
+		victory_points = {
+			13859 5
 		}
 	}
 

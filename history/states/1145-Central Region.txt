@@ -10,6 +10,18 @@ state={
 				naval_base = 3
 			}
 		}
+		#Lewisporte
+		victory_points = {
+			14406 5
+		}
+		#Gander
+		victory_points = {
+			14386 10
+		}
+		#Clarenville
+		victory_points = {
+			14338 10
+		}
 	}
 	provinces={
 		7758 12680 14261 14312 14315 14322 14338 14354 14358 14362 14382 14386 14396 14406 14419 14423 14469

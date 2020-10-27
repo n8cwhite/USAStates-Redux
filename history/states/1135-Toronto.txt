@@ -12,8 +12,33 @@ state={
 				naval_base = 3
 			}
 		}
+		#Toronto
 		victory_points = {
 			14024 20
+		}
+		#Mississauga
+		victory_points = {
+			14015 15
+		}
+		#Brampton
+		victory_points = {
+			14027 5
+		}
+		#Vaughan
+		victory_points = {
+			14034 5
+		}
+		#Richmond Hill
+		victory_points = {
+			14044 5
+		}
+		#Markham
+		victory_points = {
+			14038 5
+		}
+		#Scarborough
+		victory_points = {
+			3775 5
 		}
 	}
 	provinces={

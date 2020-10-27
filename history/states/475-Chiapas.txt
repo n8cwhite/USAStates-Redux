@@ -18,13 +18,25 @@ state={
 		add_core_of = CHP
 		add_core_of = MEX
 		victory_points = {
-			1900 15 
+			13338 20
+		}
+
+		victory_points = {
+			13346 15
+		}
+
+		victory_points = {
+			12753 15
+		}
+
+		victory_points = {
+			13333 5 
 		}
 
 	}
 
 	provinces={
-		1900 12753 12867 13333 13335 13338 13346 
+		1900 12753 12867 13333 13335 13338 13346
 	}
 	manpower=2805874
 	buildings_max_level_factor=1.000

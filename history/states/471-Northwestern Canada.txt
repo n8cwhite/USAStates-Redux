@@ -15,20 +15,23 @@ state={
 
 		}
 		add_core_of = YTY
+		#Pelly Crossing
 		victory_points = {
-			7869 5 
+			15835 5
 		}
+		#Carmacks
 		victory_points = {
-			13322 2 
+			15767 10
 		}
+		#Faro
 		victory_points = {
-			13316 3 
+			15782 5
 		}
 
 	}
 
 	provinces={
-		3606 7869 15767 15768 15782 15818 15830 15835 
+		3606 7869 15767 15768 15782 15818 15830 15835
 	}
 	manpower=70681
 	buildings_max_level_factor=1.000

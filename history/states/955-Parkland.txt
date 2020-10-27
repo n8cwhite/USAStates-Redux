@@ -8,9 +8,13 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		#Dauphin
+		victory_points = {
+			14696 5
+		}
 	}
 	provinces={
-		4218 14603 14659 14665 14671 14696 14708 14734 14736 14737 
+		4218 14603 14659 14665 14671 14696 14708 14734 14736 14737
 	}
 	manpower=35210
 	buildings_max_level_factor=1.000

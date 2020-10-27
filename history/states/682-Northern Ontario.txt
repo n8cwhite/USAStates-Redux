@@ -12,17 +12,16 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-
 		}
 		add_core_of = ONO
 		victory_points = {
-			9740 4 
+			14203 10
 		}
 
 	}
 
 	provinces={
-		6510 7366 9467 9480 12278 14150 14186 14203 14238 14277 
+		6510 7366 9467 9480 12278 14150 14186 14203 14238 14277
 	}
 	manpower=149059
 	buildings_max_level_factor=1.000

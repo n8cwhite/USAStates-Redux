@@ -8,6 +8,10 @@ state={
 			infrastructure = 6
 			dockyard = 3
 		}
+		#Bridgewater
+		victory_points = {
+			14047 10
+		}
 	}
 	provinces={
 		14047 14063

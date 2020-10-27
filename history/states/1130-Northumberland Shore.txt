@@ -8,6 +8,18 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 		}
+		#New Glasgow
+		victory_points = {
+			14130 10
+		}
+		#Antigonish
+		victory_points = {
+			14120 5
+		}
+		#Amherst
+		victory_points = {
+			14142 10
+		}
 	}
 	provinces={
 		1424 14106 14120 14130 14142 14143 14170

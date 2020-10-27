@@ -5,8 +5,10 @@ state={
 		owner = QBC
 		buildings = {
 			infrastructure = 7
-			arms_factory = 3
-			industrial_complex = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			1356 10
 		}
 		add_core_of = QBC
 	}
