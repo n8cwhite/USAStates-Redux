@@ -3,7 +3,7 @@ state={
 	id=107
 	name="STATE_107"
 
-	history={
+	history={ 1936.1.3 = {owner = AAA controller = AAA  }
 		owner = YUG
 		buildings = {
 			infrastructure = 6
