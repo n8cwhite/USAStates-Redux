@@ -1,0 +1,23 @@
+state={
+	id=1187
+	name="Central Valley"
+	history = {
+		owner = CAC
+		add_core_of = CAC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4518 15
+		}
+		victory_points = {
+			9911 10
+		}
+	}
+	provinces={
+		941 4518 9855 9911 10483 11763 13633
+	}
+	manpower=56732
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

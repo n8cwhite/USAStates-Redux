@@ -61,7 +61,7 @@ focus_tree = {
 		x = 5
 		y = 0
 		completion_reward = {
-					802 = {
+					1183 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -97,7 +97,7 @@ focus_tree = {
 		x = 3
 		y = 1
 			completion_reward = {
-					802 = {
+					1183 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = industrial_complex
@@ -108,7 +108,7 @@ focus_tree = {
 					add_resource = {
 							type = tungsten
 							amount = 25
-							state = 802
+							state = 1183
 						}
 				}
 
@@ -123,7 +123,7 @@ focus_tree = {
 		x = 2
 		y = 2
 			completion_reward = {
-					803 = {
+					1184 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = industrial_complex
@@ -147,7 +147,7 @@ focus_tree = {
 					378 = {
 							add_extra_state_shared_building_slots = 4
 						}
-					799 = {
+					1180 = {
 							add_extra_state_shared_building_slots = 4
 						}
 				}
@@ -315,12 +315,12 @@ focus_tree = {
 					add_resource = {
 							type = steel
 							amount = 30
-							state = 805
+							state = 1186
 						}
 					add_resource = {
 							type = oil
 							amount = -25
-							state = 805
+							state = 1186
 						}
 				}
 
@@ -342,9 +342,9 @@ focus_tree = {
 					add_resource = {
 							type = oil
 							amount = -24
-							state = 801
+							state = 1182
 						}
-						801 = {
+						1182 = {
 								add_extra_state_shared_building_slots = 2
 								add_building_construction = {
 										type = arms_factory
@@ -371,9 +371,9 @@ focus_tree = {
 					add_resource = {
 							type = oil
 							amount = -24
-							state = 801
+							state = 1182
 						}
-						801 = {
+						1182 = {
 								add_extra_state_shared_building_slots = 2
 								add_building_construction = {
 										type = industrial_complex
@@ -394,7 +394,7 @@ focus_tree = {
 		x = 5
 		y = 1
 			completion_reward = {
-					798 = {
+					1179 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = arms_factory
@@ -676,7 +676,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					797 = {
+					1178 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = infrastructure
@@ -684,7 +684,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					806 = {
+					1187 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = infrastructure
@@ -692,7 +692,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					799 = {
+					1180 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = infrastructure
@@ -700,7 +700,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					798 = {
+					1179 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = infrastructure
@@ -722,7 +722,7 @@ focus_tree = {
 		x = 8
 		y = 2
 			completion_reward = {
-					797 = {
+					1178 = {
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
 									type = dockyard
@@ -730,7 +730,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					800 = {
+					1181 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = dockyard
@@ -752,7 +752,7 @@ focus_tree = {
 		x = 6
 		y = 2
 			completion_reward = {
-					802 = {
+					1183 = {
 							add_building_construction = {
 									type = bunker
 									province = 13537
@@ -760,7 +760,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					802 = {
+					1183 = {
 							add_building_construction = {
 									type = bunker
 									province = 13540
@@ -768,7 +768,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					802 = {
+					1183 = {
 							add_building_construction = {
 									type = bunker
 									province = 13541
@@ -776,7 +776,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					801 = {
+					1182 = {
 							add_building_construction = {
 									type = bunker
 									province = 7986
@@ -965,7 +965,7 @@ focus_tree = {
 		x = 9
 		y = 3
 			completion_reward = {
-					798 = {
+					1179 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = arms_factory
@@ -1044,7 +1044,7 @@ focus_tree = {
 		x = 13
 		y = 3
 			completion_reward = {
-				798 = {
+				1179 = {
 					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 							type = arms_factory
@@ -1224,7 +1224,7 @@ focus_tree = {
 		x = 17
 		y = 3
 			completion_reward = {
-					802 = {
+					1183 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = industrial_complex
@@ -1249,7 +1249,7 @@ focus_tree = {
 			available_if_capitulated = yes
 			completion_reward = {
 					add_ideas = CAC_lesscorptaxidea
-					798 = {
+					1179 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
 									type = industrial_complex
@@ -1276,9 +1276,9 @@ focus_tree = {
 					every_state = {
 							limit = {
 									OR = {
-											state = 801
-											state = 805
-											state = 798
+											state = 1182
+											state = 1186
+											state = 1179
 										}
 								}
 							add_resource = {
@@ -1313,7 +1313,7 @@ focus_tree = {
 		x = 18
 		y = 15
 			completion_reward = {
-					803 = {
+					1184 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = dockyard
@@ -1353,7 +1353,7 @@ focus_tree = {
 		x = 19
 		y = 3
 			completion_reward = {
-					798 = {
+					1179 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = arms_factory
@@ -1558,7 +1558,7 @@ focus_tree = {
 		x = 17
 		y = 7
 			completion_reward = {
-					800 = {
+					1181 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = arms_factory
@@ -1579,7 +1579,7 @@ focus_tree = {
 		x = 21
 		y = 7
 			completion_reward = {
-					803 = {
+					1184 = {
 							add_extra_state_shared_building_slots = 3
 							add_building_construction = {
 									type = industrial_complex
@@ -1922,7 +1922,7 @@ focus_tree = {
 		x = 26
 		y = 5
 			completion_reward = {
-				799 = {
+				1180 = {
 						add_extra_state_shared_building_slots = 2
 						add_building_construction = {
 								type = industrial_complex
@@ -1930,7 +1930,7 @@ focus_tree = {
 								instant_build = yes
 							}
 					}
-				798 = {
+				1179 = {
 						add_extra_state_shared_building_slots = 2
 						add_building_construction = {
 								type = industrial_complex
@@ -2504,10 +2504,10 @@ focus_tree = {
 		x = 19
 		y = 11
 			available = {
-				controls_state = 802
-				controls_state = 803
-				controls_state = 800
-				controls_state = 798
+				controls_state = 1183
+				controls_state = 1184
+				controls_state = 1181
+				controls_state = 1179
 				controls_state = 814
 				controls_state = 821
 				controls_state = 463
@@ -2594,7 +2594,7 @@ focus_tree = {
 		x = 1
 		y = 4
 		completion_reward = {
-			797 = {
+			1178 = {
 				add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = air_base
@@ -2602,7 +2602,7 @@ focus_tree = {
 						instant_build = yes
 					}
 			}
-			797 = {
+			1178 = {
 				add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = arms_factory
@@ -2629,7 +2629,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			805 = {
+			1186 = {
 				add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = infrastructure
@@ -2637,16 +2637,7 @@ focus_tree = {
 						instant_build = yes
 					}
 			}
-			800 = {
-				add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = infrastructure
-						level = 2
-						instant_build = yes
-					}
-			}
-
-			799 = {
+			1181 = {
 				add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = infrastructure
@@ -2655,7 +2646,16 @@ focus_tree = {
 					}
 			}
 
-			798 = {
+			1180 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+			}
+
+			1179 = {
 				add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = infrastructure
@@ -2972,7 +2972,7 @@ focus_tree = {
 				has_country_flag = CAC_electedpresident
 			}
 		completion_reward = {
-			800 = {
+			1181 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 							type = dockyard
@@ -2980,7 +2980,7 @@ focus_tree = {
 							instant_build = yes
 						}
 				}
-			803 = {
+			1184 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 							type = dockyard
@@ -2988,7 +2988,7 @@ focus_tree = {
 							instant_build = yes
 						}
 				}
-			802 = {
+			1183 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 							type = dockyard
@@ -3085,7 +3085,7 @@ focus_tree = {
 			focus = CAC_navalindustry2 focus = CAC_navalindustry3
 		}
 			completion_reward = {
-				798 = {
+				1179 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
@@ -3101,7 +3101,7 @@ focus_tree = {
 							instant_build = yes
 							}
 						}
-					800 = {
+					1181 = {
 						add_extra_state_shared_building_slots = 2
 						add_building_construction = {
 							type = dockyard
