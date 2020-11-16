@@ -1,0 +1,216 @@
+search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+
+	
+ 
+	
+	
+	FOCUS_FILTER_RESEARCH = 522
+
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+}
+
+focus_tree = {
+	id = northcarolina_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = NCN
+	}
+	
+	default = no
+	continuous_focus_position = { x = 50 y = 1000 }
+	reset_on_civilwar = no
+
+	#independence once more! focus
+	focus = {
+		id = independence_once_more
+		icon = GFX_focus_generic_support_the_left_right
+		x = 5
+		y = 1
+		relative_position_id = army_effort
+		cost = 5
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		}
+
+
+	#hoey democracy thing
+	focus = {
+		id = hoey_administration
+		icon = GFX_focus_generic_treaty
+		x = -3.5
+		y = 1
+		relative_position_id = independence_once_more
+		cost = 10
+		prerequisite = { focus = independence_once_more }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			}
+		}
+
+	#reuinificmewdwds
+	focus = {
+		id = reunification_referendum
+		icon = GFX_goal_anschluss
+		x = 0
+		y = 1
+		relative_position_id = hoey_administration
+		cost = 10
+		prerequisite = { focus = hoey_administration }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no
+		completion_reward = {
+			add_stability = 0.05
+			SCS = {country_event = ncscreunification.1}
+			}
+		}
+	
+
+	#education but racist
+	focus = {
+		id = sep_but_equal_education
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 1
+		relative_position_id = reunification_referendum
+		cost = 10
+		prerequisite = { focus = reunification_referendum }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+			#FIGURE OUT HOW TO LOWER RESEARCH SPEED
+			}
+		}
+
+	#nyoooooooooooooooooooooooooom commission
+	focus = {
+		id = carolinian_highway_commission
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		relative_position_id = sep_but_equal_education
+		cost = 10
+		prerequisite = { focus = sep_but_equal_education }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = no
+#ADD POLITICIAN DUDE ONCE I FIGURE OUT HOW TO DO THAT TOO
+		completion_reward = {
+		1040 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		363 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1041 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1043 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1044 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1045 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1046 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		1047 = {
+					add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	} 
+	#NOW IM EVEN MORE RACIST FOCUS
+	focus = {
+		id = intense_jim_crow
+		icon = GFX_goal_generic_forceful_treaty
+		x = -1
+		y = 1
+		relative_position_id = carolinian_highway_commission
+		cost = 10
+		prerequisite = { focus = carolinian_highway_commission }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		mutually_exclusive = { focus = progressive_politics }
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_stability  = 0.05
+			#INDUSTRIAL CAPACITY FIGURE IT OUT
+			#CONSCRIPTION FIGURE IT OUT
+			}
+		}
+
+	#fuck racism focus
+	focus = {
+		id = progressive_politics
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 1
+		y = 1
+		relative_position_id = carolinian_highway_commission
+		cost = 10
+		prerequisite = { focus = carolinian_highway_commission }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		mutually_exclusive = { focus = intense_jim_crow }
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability  = -0.1
+			#CONSUMER GOODS FIGURE IT OUT
+			}
+		}
