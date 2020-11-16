@@ -484,7 +484,7 @@ form_nation = {
       controls_state = 855
       controls_state = 810
       controls_state = 807
-      controls_state = 802
+      controls_state = 1183
       controls_state = 864
       controls_state = 889
     }
@@ -522,9 +522,9 @@ form_nation = {
         863 = { add_core_of = ROOT }
         864 = { add_core_of = ROOT }
       #Southern California
-        804 = { add_core_of = ROOT }
-        801 = { add_core_of = ROOT }
-        802 = { add_core_of = ROOT }
+        1185 = { add_core_of = ROOT }
+        1182 = { add_core_of = ROOT }
+        1183 = { add_core_of = ROOT }
       #Western New Mexico
         376 = { add_core_of = ROOT }
         889 = { add_core_of = ROOT }
@@ -1069,10 +1069,10 @@ form_nation = {
 
     available = {
       is_subject = no
-      controls_state = 802
-      controls_state = 803
-      controls_state = 800
-      controls_state = 798
+      controls_state = 1183
+      controls_state = 1184
+      controls_state = 1181
+      controls_state = 1179
       controls_state = 814
       controls_state = 821
       controls_state = 463
@@ -1088,22 +1088,22 @@ form_nation = {
 
     complete_effect = {
       set_cosmetic_tag = PSA
-      set_capital = 798
+      set_capital = 1179
       add_stability = 0.15
       custom_effect_tooltip = core_land_usa
       hidden_effect = {
       #California
         378 = { add_core_of = ROOT }
-        797 = { add_core_of = ROOT }
-        798 = { add_core_of = ROOT }
-        799 = { add_core_of = ROOT }
-        800 = { add_core_of = ROOT }
-        805 = { add_core_of = ROOT }
-        806 = { add_core_of = ROOT }
-        804 = { add_core_of = ROOT }
-        803 = { add_core_of = ROOT }
-        801 = { add_core_of = ROOT }
-        802 = { add_core_of = ROOT }
+        1178 = { add_core_of = ROOT }
+        1179 = { add_core_of = ROOT }
+        1180 = { add_core_of = ROOT }
+        1181 = { add_core_of = ROOT }
+        1186 = { add_core_of = ROOT }
+        1187 = { add_core_of = ROOT }
+        1185 = { add_core_of = ROOT }
+        1184 = { add_core_of = ROOT }
+        1182 = { add_core_of = ROOT }
+        1183 = { add_core_of = ROOT }
       #Oregon
         813 = { add_core_of = ROOT }
         812 = { add_core_of = ROOT }
@@ -2403,7 +2403,7 @@ form_nation = {
       controls_state = 855
       controls_state = 864
       controls_state = 810
-      controls_state = 798
+      controls_state = 1179
       controls_state = 815
       controls_state = 820
     }
@@ -2743,16 +2743,16 @@ form_nation = {
         394 = { add_core_of = ROOT }
       #California
         378 = { add_core_of = ROOT }
-        797 = { add_core_of = ROOT }
-        798 = { add_core_of = ROOT }
-        799 = { add_core_of = ROOT }
-        800 = { add_core_of = ROOT }
-        805 = { add_core_of = ROOT }
-        806 = { add_core_of = ROOT }
-        804 = { add_core_of = ROOT }
-        803 = { add_core_of = ROOT }
-        801 = { add_core_of = ROOT }
-        802 = { add_core_of = ROOT }
+        1178 = { add_core_of = ROOT }
+        1179 = { add_core_of = ROOT }
+        1180 = { add_core_of = ROOT }
+        1181 = { add_core_of = ROOT }
+        1186 = { add_core_of = ROOT }
+        1187 = { add_core_of = ROOT }
+        1185 = { add_core_of = ROOT }
+        1184 = { add_core_of = ROOT }
+        1182 = { add_core_of = ROOT }
+        1183 = { add_core_of = ROOT }
       #Oregon
         813 = { add_core_of = ROOT }
         812 = { add_core_of = ROOT }
