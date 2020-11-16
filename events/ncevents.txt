@@ -1,0 +1,74 @@
+###########################
+# Baltic Events
+###########################
+
+add_namespace = ncscreunification
+
+# NC Demands SC
+country_event = {
+	id = ncscreunification.1
+	title = "North Carolina Demands Reuinification Referendum!"
+	desc = ncscreunification.1.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = "We must do what we can to protect the Carolinian people."
+		ai_chance = { factor = 50 }	
+		NCN = {country_event = ncscreunification.2}
+	}
+
+	option = { # Refuse
+		name = "This is nothing but an attempt to dominate our country."
+		ai_chance = { factor = 50 }
+		NCN = {country_event = ncscreunification.3}
+		}
+	}
+
+# NC Demands SC
+country_event = {
+	id = ncscreunification.2
+	title = "South Carolina Accepts Reunification"
+	desc = ncscreunification.2.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = "For the future!"
+		ai_chance = { factor = 100 }
+		annex_country = {
+			target = SCS
+			transfer_troops = yes
+			}
+		add_state_core = 1036
+		add_state_core = 1035
+		add_state_core = 1037
+		add_state_core = 1036
+		add_state_core = 364
+		add_state_core = 1039
+		add_state_core = 1038
+		}
+	}
+
+# NC Demands SC
+country_event = {
+	id = ncscreunification.3
+	title = "South Carolina Rejects Reunification"
+	desc = ncscreuinification.3.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = "Disappointing."
+		ai_chance = { factor = 100 }
+		add_opinion_modifier = {
+			target = SCS
+			modifier =
+				condemn_aggression
+				}
+			}
+		
+		}
