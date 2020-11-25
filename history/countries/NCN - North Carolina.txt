@@ -2,7 +2,7 @@
 
 oob = "NCN_1936"
 
-set_research_slots = 4
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -134,7 +134,8 @@ set_politics = {
 	elections_allowed = yes
 }
 add_ideas = {
-	home_of_the_free
+	old_north_state
+	history_of_independence
 }
 set_popularities = {
 	democratic = 98
