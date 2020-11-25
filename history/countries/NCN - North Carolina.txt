@@ -134,7 +134,9 @@ set_politics = {
 	elections_allowed = yes
 }
 add_ideas = {
-	home_of_the_free
+	old_north_state
+	familiar_with_independence
+	#will get this like thanksgiving break or sumn once i figure shit out
 }
 set_popularities = {
 	democratic = 98
