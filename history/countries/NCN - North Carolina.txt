@@ -134,7 +134,8 @@ set_politics = {
 	elections_allowed = yes
 }
 add_ideas = {
-	home_of_the_free
+	old_north_state
+	return_to_independence
 }
 set_popularities = {
 	democratic = 98
