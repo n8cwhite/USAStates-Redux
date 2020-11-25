@@ -1,4 +1,35 @@
 ideas = {
+
+
+	country = {
+		old_north_state = {
+			picture = GFX_focus_focus_fra_revolution_utmost
+			
+			allowed = {
+				tag = NCN
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+			
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			
+			modifier = {
+				army_infantry_attack_factor = 0.05
+				army_org = 2.5
+				conscription_factor = 0.025
+			}
+		}
+		
+	}
+	
 	political_advisor = {
 
 		NCN_James_Gully= {
